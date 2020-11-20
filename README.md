@@ -6,7 +6,7 @@ GGCAM-EML is developed based on Global Change Analysis Model (GCAM) developed by
 | --- | --- |
 | Operating System | Wiondows 10 x64 |
 | Required runtimes | [.NET Core 3.1 Destop Runtime](https://dotnet.microsoft.com/download/dotnet-core/3.1) |
-|  | [C++ 2015-2019 Redistributable (x64)](https://support.microsoft.com/ko-kr/help/2977003/the-latest-supported-visual-c-downloads) |
+|  | [C++ 2015-2019 Redistributable (x64)](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) |
 
 ## Web-based GCAM-EML
 Web version is being developed using ASP.NET-core, cutting edge web technology. It allows the administrator to track down the visitors’ interest in various technology characteristics. Information gathered on the technology of visitor's choice, therefore, can help establishing the future energy technology policy.
