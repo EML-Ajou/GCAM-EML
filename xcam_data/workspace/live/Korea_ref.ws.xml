@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="my workspace">
+  <scenarios>
+    <scenario name="reference">
+      <file>primary/input_South Korea_53.xml</file>
+    </scenario>
+  </scenarios>
+  <chart-list />
+</workspace>

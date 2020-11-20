@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xcam-query>
+  <sector-queries>
+    <query name="Primary Energy" id="primary_energy">
+      <sector name="regional coal"/>
+      <sector name="regional oil"/>
+      <sector name="regional natural gas"/>
+      <sector name="regional biomass"/>
+      <sector name="regional biomassOil"/>
+      <sector name="resid*"/>
+      <sector name="electricity"/>
+    </query>
+    <query name="Electricity" id="electricity">
+      <sector name="electricity"/>
+      <!--<sector name="elect_td_bld"/>-->
+    </query>
+    <query name="Elect Demand" id="elect_demand">
+      <sector name="elect_td_bld"/>
+      <sector name="elect_td_ind"/>
+      <sector name="elect_td_trn"/>
+    </query>
+    <query name="Gas Processing" id="gas_processing">
+      <sector name="gas processing"/>
+    </query>
+    <query name="Refining" id="refining">
+      <sector name="refining"/>
+    </query>
+    <query name="Industry" id="industry">
+      <sector name="industrial energy use"/>
+      <sector name="industrial feedstocks"/>
+      <sector name="cement"/>
+      <sector name="process heat cement"/>
+      <sector name="N fertilizer"/>
+    </query>
+    <query name="Commercial" id="comm">
+      <sector name="comm*"/>
+    </query>
+    <query name="Residential" id="resid">
+      <sector name="resid*"/>
+    </query>
+    <query name="Building">
+      <ref-query name="Commercial"/>
+      <ref-query name="Residential"/>
+    </query>
+    <query name="Transportation (Passenger)">
+      <sector name="trn_pass*"/>
+    </query>
+    <query name="Transportation (Freight)">
+      <sector name="trn_freight*"/>
+    </query>
+    <query name="Transportation" id="trn">
+      <sector name="trn_pass*" group="passenger"/>
+      <sector name="trn_freight*" group="freight"/>
+      <sector name="trn_aviation_intl" group="intl aviation"/>
+      <sector name="trn_shipping_intl" group="intl shipping"/>
+    </query>
+    <query name="End Use Sectors" id="enduse_sectors">
+      <ref-query name="Commercial"/>
+      <ref-query name="Residential"/>
+      <ref-query name="Industry"/>
+      <ref-query name="Transportation"/>
+    </query>
+    <query name="End Use Sectors &amp; Electricity" id="enduse_elec_sectors">
+      <ref-query name="Commercial"/>
+      <ref-query name="Residential"/>
+      <ref-query name="Industry"/>
+      <ref-query name="Transportation"/>
+      <ref-query name="Electricity"/>
+    </query>
+    <query name="All Sectors">
+      <sector name="*"/>
+    </query>
+  </sector-queries>
+  <general-queries>
+    <query name="Population">
+      demographics/populationMiniCAM
+    </query>
+    <query name="GDP MER">
+      GDP/gdp-mer
+    </query>
+    <query name="GDP per capita MER">
+      GDP/gdp-per-capita-mer
+    </query>
+    <query name="GDP per capita PPP">
+      GDP/gdp-per-capita-ppp
+    </query>
+    <query name="market price">
+      Marketplace/market/price
+    </query>
+    <query name="market supply">
+      Marketplace/market/supply
+    </query>
+    <query name="building floorspace">
+      gcam-consumer//floorspace
+    </query>
+
+  </general-queries>
+</xcam-query>

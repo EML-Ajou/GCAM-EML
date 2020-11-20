@@ -1,0 +1,246 @@
+# File: iso_GCAM_regID.csv,,,,,
+# Title: ISO to GCAM region mapping,,,,,
+# Units: NA,,,,,
+# Description: Maps iso codes to GCAM regions (including composites as necessary),,,,,
+# Column types: ccci ,,,,,
+# ----------,,,,,
+iso,country_name,region_GCAM3,GCAM_region_ID,IPCC_five_region_ID,timezone
+afg,Afghanistan,Southeast Asia,27,3,4.5
+alb,Albania,Eastern Europe,15,1,2
+dza,Algeria,Africa,3,4,1
+asm,American Samoa,Southeast Asia,29,0,-11
+and,Andorra,Western Europe,13,0,2
+ago,Angola,Africa,4,4,1
+aia,Anguilla,Latin America,9,0,-4
+atg,Antigua & Barbuda,Latin America,9,0,-4
+arg,Argentina,Latin America,31,5,-3
+arm,Armenia,Former Soviet Union,10,2,4
+abw,Aruba,Latin America,9,5,-4
+aus,Australia,Australia_NZ,6,1,10
+aut,Austria,Western Europe,13,1,1
+aze,Azerbaijan,Former Soviet Union,10,2,4
+bhs,Bahamas,Latin America,9,5,-5
+bhr,Bahrain,Middle East,21,4,3
+bgd,Bangladesh,Southeast Asia,27,3,6
+brb,Barbados,Latin America,9,5,-4
+blr,Belarus,Former Soviet Union,14,2,3
+bel,Belgium,Western Europe,13,1,1
+blz,Belize,Latin America,9,5,-6
+ben,Benin,Africa,5,4,1
+bmu,Bermuda,Western Europe,9,0,-3
+btn,Bhutan,Southeast Asia,27,3,6
+bol,Bolivia,Latin America,26,5,-4
+bih,Bosnia and Herzegovina,Eastern Europe,15,1,1
+bwa,Botswana,Africa,4,4,2
+bra,Brazil,Latin America,7,5,-3
+brn,Brunei Darussalam,Southeast Asia,29,3,8
+bgr,Bulgaria,Eastern Europe,12,1,2
+bfa,Burkina Faso,Africa,5,4,0
+bdi,Burundi,Africa,2,4,2
+khm,Cambodia,China,29,3,7
+cmr,Cameroon,Africa,5,4,1
+can,Canada,Canada,8,1,-4
+cpv,Cape Verde,Africa,5,4,-1
+cym,Cayman Islands,Latin America,9,0,
+caf,Central African Republic,Africa,5,4,
+tcd,Chad,Africa,5,4,
+chi,Channel Islands,Western Europe,13,0,
+chl,Chile,Latin America,26,5,
+chn,China,China,11,3,
+cxr,Christmas Island,Southeast Asia,29,0,
+cck,Cocos (Keeling) Islands,Southeast Asia,29,0,
+col,Colombia,Latin America,32,5,-5
+com,Comoros,Africa,2,4,
+cog,Congo,Africa,5,4,
+cod,"Congo, the Democratic Republic of the",Africa,5,4,
+cok,Cook Islands,Australia_NZ,29,0,
+cri,Costa Rica,Latin America,9,5,
+civ,Cote dIvoire,Africa,5,4,
+hrv,Croatia,Eastern Europe,15,1,
+cub,Cuba,Latin America,9,5,
+cyp,Cyprus,Western Europe,12,1,
+cze,Czech Republic,Eastern Europe,12,1,
+dnk,Denmark,Western Europe,13,1,
+dji,Djibouti,Africa,2,4,
+dma,Dominica,Latin America,9,0,
+dom,Dominican Republic,Latin America,9,5,
+ecu,Ecuador,Latin America,26,5,-5
+egy,Egypt,Africa,3,4,
+slv,El Salvador,Latin America,9,5,
+gnq,Equatorial Guinea,Africa,5,4,
+eri,Eritrea,Africa,2,4,
+est,Estonia,Former Soviet Union,12,1,
+eth,Ethiopia,Africa,2,4,3
+flk,Falkland Islands (Malvinas),Latin America,13,0,
+fro,Faroe Islands,Western Europe,13,0,
+fji,Fiji,Southeast Asia,29,3,12
+fin,Finland,Western Europe,13,1,
+fra,France,Western Europe,13,1,
+guf,French Guiana,Latin America,25,5,
+pyf,French Polynesia,Southeast Asia,29,3,
+gab,Gabon,Africa,5,4,
+gmb,Gambia,Africa,5,4,
+geo,Georgia,Former Soviet Union,10,2,
+deu,Germany,Western Europe,13,1,
+gha,Ghana,Africa,5,4,
+gib,Gibraltar,Western Europe,13,0,
+grc,Greece,Western Europe,13,1,
+grl,Greenland,Western Europe,13,0,
+grd,Grenada,Latin America,9,5,
+glp,Guadeloupe,Latin America,9,5,
+gum,Guam,Southeast Asia,29,1,
+gtm,Guatemala,Latin America,9,5,
+gin,Guinea,Africa,5,4,
+gnb,Guinea-Bissau,Africa,5,4,
+guy,Guyana,Latin America,25,5,
+hti,Haiti,Latin America,9,5,
+hnd,Honduras,Latin America,9,5,
+hkg,Hong Kong,Southeast Asia,11,3,
+hun,Hungary,Eastern Europe,12,1,
+isl,Iceland,Western Europe,16,1,
+ind,India,India,17,3,
+idn,Indonesia,Southeast Asia,18,3,
+irn,"Iran, Islamic Republic of",Middle East,21,4,
+irq,Iraq,Middle East,21,4,
+irl,Ireland,Western Europe,13,1,
+imn,Isle of Man,Western Europe,13,0,
+isr,Israel,Middle East,21,4,
+ita,Italy,Western Europe,13,1,
+jam,Jamaica,Latin America,9,5,
+jpn,Japan,Japan,19,1,
+jor,Jordan,Middle East,21,4,
+kaz,Kazakhstan,Former Soviet Union,10,2,
+ken,Kenya,Africa,2,4,3
+kir,Kiribati,Southeast Asia,29,0,
+prk,"Korea, Democratic Peoples Republic of",China,29,3,9
+kor,"Korea, Republic of",Korea,28,3,9
+kwt,Kuwait,Middle East,21,4,
+kgz,Kyrgyzstan,Former Soviet Union,10,2,6
+lao,Lao Peoples Democratic Republic,Southeast Asia,29,3,
+lva,Latvia,Former Soviet Union,12,1,
+lbn,Lebanon,Middle East,21,4,
+lso,Lesotho,Africa,4,4,
+lbr,Liberia,Africa,5,4,
+lby,Libyan Arab Jamahiriya,Africa,3,4,
+lie,Liechtenstein,Western Europe,16,0,
+ltu,Lithuania,Former Soviet Union,12,1,
+lux,Luxembourg,Western Europe,13,1,
+mac,Macau,Southeast Asia,11,3,
+mkd,"Macedonia, the former Yugoslav Republic of",Eastern Europe,15,1,
+mdg,Madagascar,Africa,2,4,
+mwi,Malawi,Africa,4,4,
+mys,Malaysia,Southeast Asia,29,3,
+mdv,Maldives,Southeast Asia,27,3,
+mli,Mali,Africa,5,4,
+mlt,Malta,Western Europe,12,1,
+mhl,Marshall Islands,Southeast Asia,29,0,
+mtq,Martinique,Western Europe,9,5,
+mrt,Mauritania,Africa,5,4,
+mus,Mauritius,Africa,2,4,
+myt,Mayotte,Africa,29,4,
+mex,Mexico,Latin America,20,5,
+fsm,"Micronesia, Federated States of",Southeast Asia,29,3,
+mda,"Moldova, Republic of",Former Soviet Union,14,2,
+mco,Monaco,Western Europe,13,0,
+mng,Mongolia,China,10,3,8
+mne,Montenegro,Eastern Europe,15,1,
+msr,Montserrat,Latin America,9,0,
+mar,Morocco,Africa,3,4,
+moz,Mozambique,Africa,4,4,
+mmr,Myanmar,Southeast Asia,29,3,
+nam,Namibia,Africa,4,4,
+nru,Nauru,Southeast Asia,29,0,
+npl,Nepal,Southeast Asia,27,3,
+nld,Netherlands,Western Europe,13,1,
+ant,Netherlands Antilles,Latin America,9,0,
+ncl,New Caledonia,Southeast Asia,29,3,
+nzl,New Zealand,Australia_NZ,6,1,
+nic,Nicaragua,Latin America,9,5,
+ner,Niger,Africa,5,4,
+nga,Nigeria,Africa,5,4,1
+niu,Niue,Australia_NZ,29,0,
+nfk,Norfolk Island,Australia_NZ,29,0,
+mnp,Northern Mariana Islands,Southeast Asia,29,0,
+nor,Norway,Western Europe,16,1,
+omn,Oman,Middle East,21,4,
+pci,Pacific Islands Trust Territory,Southeast Asia,29,0,
+pak,Pakistan,Southeast Asia,22,3,
+plw,Palau,Southeast Asia,29,0,
+pse,"Palestinian Territory, Occupied",Middle East,21,4,3
+pan,Panama,Latin America,9,5,
+png,Papua New Guinea,Southeast Asia,29,3,
+pry,Paraguay,Latin America,26,5,
+per,Peru,Latin America,26,5,
+phl,Philippines,Southeast Asia,29,3,
+pcn,Pitcairn Islands,Southeast Asia,29,0,
+pol,Poland,Eastern Europe,12,1,
+prt,Portugal,Western Europe,13,1,
+pri,Puerto Rico,USA,1,1,
+qat,Qatar,Middle East,21,4,
+reu,Reunion,Africa,2,4,
+rou,Romania,Eastern Europe,12,1,
+rus,Russian Federation,Former Soviet Union,23,2,
+rwa,Rwanda,Africa,2,4,2
+shn,Saint Helena,Africa,13,0,
+kna,Saint Kitts and Nevis,Latin America,9,0,
+lca,Saint Lucia,Latin America,9,0,
+spm,Saint Pierre and Miquelon,Canada,13,0,
+vct,Saint Vincent and the Grenadines,Latin America,9,0,
+wsm,Samoa,Southeast Asia,29,3,
+smr,San Marino,Western Europe,13,0,
+stp,Sao Tome and Principe,Africa,5,0,
+sau,Saudi Arabia,Middle East,21,4,
+sen,Senegal,Africa,5,4,
+srb,Serbia,Eastern Europe,15,1,
+scg,Serbia and Montenegro,Eastern Europe,15,0,
+syc,Seychelles,Africa,29,0,
+sle,Sierra Leone,Africa,5,4,
+sgp,Singapore,Southeast Asia,29,3,
+svk,Slovakia,Eastern Europe,12,1,
+svn,Slovenia,Eastern Europe,12,1,
+slb,Solomon Islands,Southeast Asia,29,3,
+som,Somalia,Africa,2,4,
+zaf,South Africa,Africa,24,4,
+sds,South Sudan,Africa,2,4,
+esp,Spain,Western Europe,13,1,
+lka,Sri Lanka,Southeast Asia,27,3,
+sdn,Sudan,Africa,2,4,
+sur,Suriname,Latin America,25,5,
+sjm,Svalbard and Jan Mayen Islands,Western Europe,16,0,
+swz,Swaziland,Africa,4,4,
+swe,Sweden,Western Europe,13,1,
+che,Switzerland,Western Europe,16,1,
+syr,Syrian Arab Republic,Middle East,21,4,
+twn,Taiwan,Southeast Asia,30,3,
+tjk,Tajikistan,Former Soviet Union,10,2,5
+tza,"Tanzania, United Republic of",Africa,4,4,3
+tha,Thailand,Southeast Asia,29,3,
+tls,Timor Leste,Southeast Asia,29,3,
+tgo,Togo,Africa,5,4,
+tkl,Tokelau,Australia_NZ,29,0,
+ton,Tonga,Southeast Asia,29,0,
+tto,Trinidad and Tobago,Latin America,9,5,
+tun,Tunisia,Africa,3,4,
+tur,Turkey,Western Europe,15,1,
+tkm,Turkmenistan,Former Soviet Union,10,2,
+tca,Turks and Caicos,Latin America,13,0,
+tuv,Tuvalu,Southeast Asia,29,0,
+uga,Uganda,Africa,2,4,3
+ukr,Ukraine,Former Soviet Union,14,2,
+are,United Arab Emirates,Middle East,21,4,
+gbr,United Kingdom,Western Europe,13,1,
+usa,United States of America,USA,1,1,
+ury,Uruguay,Latin America,26,5,
+uzb,Uzbekistan,Former Soviet Union,10,2,5
+vut,Vanuatu,Southeast Asia,29,3,
+vat,Vatican,Western Europe,13,0,
+ven,Venezuela,Latin America,25,5,
+vnm,Viet Nam,China,29,3,
+vgb,"Virgin Islands, British",Latin America,13,0,
+vir,"Virgin Islands, U.S.",Latin America,1,5,
+wlf,Wallis and Futuna,Australia_NZ,13,0,
+esh,Western Sahara,Africa,3,4,
+yem,Yemen,Middle East,21,4,
+yug,"Yugoslavia, Federal Republic of",Eastern Europe,15,0,
+zmb,Zambia,Africa,4,4,
+zwe,Zimbabwe,Africa,4,4,

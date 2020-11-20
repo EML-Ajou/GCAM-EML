@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xcam-configuration>
+  <strings>
+    <item name="energy-unit">EJ</item>
+  </strings>
+  <ints />
+  <bools />
+  <fuels>
+    <fuel name="coal" color="DarkGray" />
+    <fuel name="natural gas" color="SkyBlue" />
+    <fuel name="gas" color="SkyBlue" />
+    <fuel name="oil" color="Orange" />
+    <fuel name="refined liquids" color="Orange" />
+    <fuel name="biomass" color="LimeGreen" />
+    <fuel name="biomassOil" color="LimeGreen" />
+    <fuel name="ethanol" color="LimeGreen" />
+    <fuel name="traditional biomass" color="LightGreen" />
+    <fuel name="electricity" color="BurlyWood" />
+    <fuel name="nuclear" color="LightSalmon" />
+    <fuel name="solar" color="Gold" />
+    <fuel name="wind" color="Violet" />
+    <fuel name="hydro" color="DodgerBlue" />
+    <fuel name="geothermal" color="Peru" />
+    <fuel name="H2" color="Peru" />
+  </fuels>
+</xcam-configuration>
