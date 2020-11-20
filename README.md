@@ -4,7 +4,7 @@ GGCAM-EML is developed based on Global Change Analysis Model (GCAM) developed by
 ## Hardware and software requirements
 | Command | Description |
 | --- | --- |
-| Operating System | Wiondows 10 x64 |
+| Operating System | Windows 10 x64 |
 | Required runtimes | [.NET Core 3.1 Destop Runtime](https://dotnet.microsoft.com/download/dotnet-core/3.1) |
 |  | [C++ 2015-2019 Redistributable (x64)](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) |
 
