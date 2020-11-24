@@ -93,6 +93,18 @@
     <query name="building floorspace">
       gcam-consumer//floorspace
     </query>
+    <query name="building energy price">
+      gcam-consumer//price
+    </query>
+    <query name="subregional per capita income">
+      gcam-consumer//subregional-percapita-income
+    </query>
+    <query name="subregional population">
+      gcam-consumer//subregional-population
+    </query>
+    <query name="building energy service">
+      gcam-consumer//physical-output
+    </query>
 
   </general-queries>
 </xcam-query>
