@@ -1,0 +1,67 @@
+﻿#IEA,Tanzania United Republic of,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,158,,,731,,181,1,16193,,,17264
+Imports,,,2622,,,,,,6,,2628
+Exports,,,,,,,,,,,
+International marine bunkers,,,-54,,,,,,,,-54
+International aviation bunkers,,,-111,,,,,,,,-111
+Stock changes,,,,,,,,,,,
+TES,158,,2457,731,,181,1,16193,6,,19728
+Transfers,,,,,,,,,,,
+Statistical differences,,,263,,,,,,-39,,224
+Electricity plants,,,-462,-593,,-181,-1,-28,582,,-683
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,,,,,,,,,,
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,-2088,,,-2088
+Energy industry own use,,,,,,,,,-1,,-1
+Losses,,,,,,,,,-96,,-96
+Total final consumption,158,,2258,138,,,,14077,451,,17083
+Industry,158,,186,138,,,,1224,117,,1824
+Transport,,,1899,,,,,,,,1899
+Residential,,,104,,,,,11596,204,,11904
+Commercial and public services,,,,,,,,,102,,102
+Agriculture / forestry,,,22,,,,,814,15,,851
+Fishing,,,,,,,,,,,
+Non-specified,,,,,,,,443,13,,457
+Non-energy use,,,47,,,,,,,,47
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,,,,,,,,,,,
+Oil,1480,,,,,,,,,,
+Natural gas,3105,,,,,,,,,,
+Biofuels,64,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,2108,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,15,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,6772,,,,,,,,,,
+Imports,71,,,,,,,,,,
+Exports,,,,,,,,,,,
+Domestic supply,6843,,,,,,,,,,
+Statistical differences,-458,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,15,,,,,,,,,,
+Losses,1120,,,,,,,,,,
+Final consumption,5250,,,,,,,,,,
+Industry,1362,,,,,,,,,,
+Transport,,,,,,,,,,,
+Residential,2373,,,,,,,,,,
+Commercial and public services,1181,,,,,,,,,,
+Agriculture / forestry,178,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,156,,,,,,,,,,

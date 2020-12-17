@@ -1,0 +1,67 @@
+﻿#IEA,Ecuador,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,,28598,,562,,1126,14,540,,,30841
+Imports,,,7082,,,,,,44,,7126
+Exports,,-21506,-1328,,,,,,-4,,-22838
+International marine bunkers,,,-364,,,,,,,,-364
+International aviation bunkers,,,-195,,,,,,,,-195
+Stock changes,,389,47,,,,,,,,436
+TES,,7481,5242,562,,1126,14,540,40,,15005
+Transfers,,-251,278,,,,,,,,26
+Statistical differences,,106,-250,,,,,,1,,-143
+Electricity plants,,-256,-2073,-544,,-1126,-12,-70,2230,,-1850
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,-6936,6538,,,,,,,,-398
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,,,,
+Energy industry own use,,-144,-455,,,,,,-45,,-644
+Losses,,,,,,,,,-288,,-288
+Total final consumption,,,9281,18,,,2,471,1939,,11710
+Industry,,,1022,17,,,,250,738,,2027
+Transport,,,5634,,,,,8,1,,5642
+Residential,,,915,,,,,213,596,,1724
+Commercial and public services,,,401,,,,2,,554,,957
+Agriculture / forestry,,,167,,,,,,,,167
+Fishing,,,,,,,,,,,
+Non-specified,,,849,,,,,,51,,900
+Non-energy use,,,292,,,,,,,,292
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,,,,,,,,,,,
+Oil,10128,,,,,,,,,,
+Natural gas,2171,,,,,,,,,,
+Biofuels,408,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,13096,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,36,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,99,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,25938,,,,,,,,,,
+Imports,512,,,,,,,,,,
+Exports,-46,,,,,,,,,,
+Domestic supply,26404,,,,,,,,,,
+Statistical differences,12,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,522,,,,,,,,,,
+Losses,3344,,,,,,,,,,
+Final consumption,22550,,,,,,,,,,
+Industry,8580,,,,,,,,,,
+Transport,10,,,,,,,,,,
+Residential,6928,,,,,,,,,,
+Commercial and public services,6438,,,,,,,,,,
+Agriculture / forestry,,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,594,,,,,,,,,,

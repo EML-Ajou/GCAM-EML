@@ -102,8 +102,8 @@
     <query name="subregional population">
       gcam-consumer//subregional-population
     </query>
-    <query name="building energy service">
-      gcam-consumer//physical-output
+    <query name="building energy price">
+      gcam-consumer//price
     </query>
 
   </general-queries>
