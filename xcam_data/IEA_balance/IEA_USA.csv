@@ -1,0 +1,96 @@
+#IEA,USA,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,431282,582410,,636668,216339,21584,31355,101925,,,2021563
+Imports,6048,408367,74743,62896,,,,2281,6515,,560850
+Exports,-43965,-45283,-171598,-40700,,,,-2142,-782,,-304469
+International marine bunkers,,,-16830,,,,,-175,,,-17006
+International aviation bunkers,,,-23702,,,,,,,,-23702
+Stock changes,-19327,-11963,-6607,-12358,,,,-516,,,-50771
+TES,374037,933531,-143993,646508,216339,21584,31355,101372,5733,,2186465
+Transfers,,-77232,79138,,,,,,,,1906
+Statistical differences,-2581,-1407,5526,-6637,,,,,,,-5098
+Electricity plants,-332593,,-6175,-198997,-216339,-21584,-28797,-14794,342043,,-477235
+CHP plants,-8196,,-2712,-42811,,,,-7444,27437,9988,-23738
+Heat plants,,,,,,,,,,,
+Gas works,-1993,,,1076,,,,,,,-917
+Oil refineries,,-855401,839434,,,,,,,,-15966
+Coal transformation,-7834,,,,,,,,,,-7834
+Liquefication plants,,,,,,,,,,,
+Other transformation,,4811,,-4256,,,,,,,555
+Energy industry own use,-1325,,-33570,-57799,,,,-146,-28165,-3332,-124338
+Losses,,,,,,,,,-21954,-1199,-23152
+Total final consumption,19515,4302,737648,337084,,,2559,78988,325093,5458,1510647
+Industry,18843,,19370,121735,,,,29784,69325,4313,263370
+Transport,,,561406,16595,,,,35029,763,,613794
+Residential,,,15637,108418,,,491,10827,120517,,255891
+Commercial and public services,672,,11664,73508,,,2067,2156,116894,1145,208107
+Agriculture / forestry,,,14821,1449,,,,1192,3275,,20738
+Fishing,,,,,,,,,,,
+Non-specified,,,,,,,,,14319,,14319
+Non-energy use,,4302,114750,15377,,,,,,,134429
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,1470997,40174,,,,,,,,,
+Oil,38837,25438,,,,,,,,,
+Natural gas,1372570,308740,,,,,,,,,
+Biofuels,61640,28788,,,,,,,,,
+Waste,18826,15047,,,,,,,,,
+Nuclear,830288,,,,,,,,,,
+Hydro,271129,,,,,,,,,,
+Geothermal,18727,,,,,,,,,,
+Solar PV,32091,,,,,,,,,,
+Solar thermal,3544,,,,,,,,,,
+Wind,192992,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,5518,,,,,,,,,,
+Municipal Waste,16523,10747,,,,,,,,,
+Waste (renewable),8427,5481,,,,,,,,,
+Total production,4317159,418187,,,,,,,,,
+Imports,75770,,,,,,,,,,
+Exports,-9100,,,,,,,,,,
+Domestic supply,4383829,418187,,,,,,,,,
+Statistical differences,,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,347671,139494,,,,,,,,,
+Losses,255322,50182,,,,,,,,,
+Final consumption,3780836,228511,,,,,,,,,
+Industry,806248,180558,,,,,,,,,
+Transport,8872,,,,,,,,,,
+Residential,1401616,,,,,,,,,,
+Commercial and public services,1359480,47953,,,,,,,,,
+Agriculture / forestry,38091,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,166529,,,,,,,,,,
+,,,,,,,,,,,
+#Renewable & waste,Municipal waste,Industrial waste,Primary solid biofuels,Biogases,Liquid biofuels,Geothermal,Solar thermal,Hydro,Solar PV,"Tide, wave, ocean",Wind
+Unit,GWh,GWh,GWh,GWh,GWh,GWh,GWh,GWh,GWh,GWh,GWh
+Gross elec. generation,16523,2303,47743,13674,223,18727,3544,271129,32091,,192992
+Unit,TJ,TJ,TJ,TJ,TJ,TJ,TJ,,,,
+Gross heat production,10747,4300,27400,1388,,,,,,,
+Unit,TJ-net,TJ-net,TJ-net,TJ-net,kt,TJ,TJ,,,,
+Production,294282,50686,2192710,177841,48231,376496,125981,,,,
+Imports,,,,,2213,,,,,,
+Exports,,,,,-2755,,,,,,
+Stock changes,,,,,-590,,,,,,
+Domestic supply,294282,50686,2192710,177841,46936,376496,125981,,,,
+Statistical differences and transfers,1,,1,,,,,,,,
+Transformation,271824,33475,461763,159616,162,365216,30141,,,,
+Electricity plants,242891,16324,213342,144764,58,365216,30141,,,,
+CHP plants,28933,17151,248421,14852,104,,,,,,
+Heat plants,,,,,,,,,,,
+Other transformation,,,,,,,,,,,
+Energy industry own use,,,90,,134,,,,,,
+Losses,,,,,,,,,,,
+Final consumption,22459,17211,1730858,18225,46640,11280,95840,,,,
+Industry,3293,17211,1187436,16435,731,,,,,,
+Transport,,,,,45262,,,,,,
+Residential,,,441979,,252,11280,9281,,,,
+Commercial and public services,19166,,61689,1790,169,,86559,,,,
+Agriculture / forestry,,,39754,,226,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,,,,,,,,,,,
+Non-energy use,,,,,,,,,,,

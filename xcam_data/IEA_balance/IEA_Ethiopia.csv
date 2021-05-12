@@ -1,0 +1,67 @@
+#IEA,Ethiopia,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,,,,,,832,67,35408,,,36306
+Imports,253,,3490,,,,,,,,3743
+Exports,,,,,,,,,-60,,-60
+International marine bunkers,,,,,,,,,,,
+International aviation bunkers,,,-508,,,,,,,,-508
+Stock changes,,,-27,,,,,1,,,-26
+TES,253,,2955,,,832,67,35408,-60,,39455
+Transfers,,,,,,,,,,,
+Statistical differences,,,11,,,,,,-14,,-3
+Electricity plants,,,-1,,,-832,-67,,899,,-1
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,,,,,,,,,,
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,-2151,,,-2151
+Energy industry own use,,,,,,,,,-3,,-3
+Losses,,,,,,,,,-179,,-179
+Total final consumption,253,,2965,,,,,33257,642,,37118
+Industry,253,,737,,,,,,196,,1186
+Transport,,,1541,,,,,4,,,1545
+Residential,,,281,,,,,32986,281,,33548
+Commercial and public services,,,55,,,,,267,165,,487
+Agriculture / forestry,,,129,,,,,,,,129
+Fishing,,,,,,,,,,,
+Non-specified,,,129,,,,,,,,129
+Non-energy use,,,93,,,,,,,,93
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,,,,,,,,,,,
+Oil,4,,,,,,,,,,
+Natural gas,,,,,,,,,,,
+Biofuels,,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,9674,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,18,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,759,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,10455,,,,,,,,,,
+Imports,,,,,,,,,,,
+Exports,-700,,,,,,,,,,
+Domestic supply,9755,,,,,,,,,,
+Statistical differences,-162,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,38,,,,,,,,,,
+Losses,2085,,,,,,,,,,
+Final consumption,7470,,,,,,,,,,
+Industry,2278,,,,,,,,,,
+Transport,,,,,,,,,,,
+Residential,3272,,,,,,,,,,
+Commercial and public services,1920,,,,,,,,,,
+Agriculture / forestry,,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,,,,,,,,,,,

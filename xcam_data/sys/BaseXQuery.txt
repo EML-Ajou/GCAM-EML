@@ -1,0 +1,150 @@
+(:valid elem - demographics/GDP/ag, otherwise leave empty:)
+declare function local:query-db($scnNames as xs:string*, $rgnNames as xs:string*, $elem as xs:string, $sectorNames as xs:string*, $collection as xs:string) as node()*
+{
+  let $a := $scnNames (:dummy statement to prevent syntax error:)
+  return  
+      <root>
+       {local:query-scenarios($scnNames, $rgnNames, $elem, $sectorNames, $collection)}
+      </root>
+};
+
+(:query single scenario, single region:)
+declare function local:query-scenario($scnName as xs:string, $rgnName as xs:string, $elem as xs:string, $sectorNames as xs:string*, $collection as xs:string) as node()*
+{
+  let $scenario := collection($collection)/scenario[@name=$scnName]
+  let $region := $scenario/world/region[@name=$rgnName]
+  return  
+       local:query-region($region, $elem, $sectorNames)
+};
+
+declare function local:query-scenarios($scnNames as xs:string*, $rgnNames as xs:string*, $elem as xs:string, $sectorNames as xs:string*, $collection as xs:string) as node()*
+{
+  let $scenarios := collection($collection)/scenario
+  let $count := count($rgnNames)
+
+  for $scn in $scenarios
+  return  
+      
+    if ($count = 0) then ( (:all regions:)
+      <scenario name='{$scn/@name}'>   
+	  <world>
+      {local:query-regions($scn/world/region, $elem, $sectorNames)}
+	  </world>
+      </scenario>
+    )
+    else (
+      <scenario name='{$scn/@name}'>    
+	  <world>
+      {local:query-regions($scn/world/region, $rgnNames, $elem, $sectorNames)}
+	  </world>
+      </scenario>
+    )
+};
+
+(:query all regions:)
+declare function local:query-regions($regions as node()*, $elem as xs:string, $sectorNames as xs:string*) as node()*
+{
+  for $rgn in $regions   
+  return        
+    local:query-region($rgn, $elem, $sectorNames)
+};
+
+(:query specified regions:)
+declare function local:query-regions($regions as node()*, $rgnNames as xs:string*, $elem as xs:string, $sectorNames as xs:string*) as node()*
+{
+  for $rgnName in $rgnNames
+    let $rgn := $regions[@name=$rgnName]   
+  return           
+    local:query-region($rgn, $elem, $sectorNames)
+};
+
+(:query the specified region:)
+declare function local:query-region($region as node(), $elem as xs:string, $sectorNames as xs:string*) as node()*
+{
+  let $rgn := $region
+  return           
+    if ($elem='demographics') then (
+      <region name='{$rgn/@name}'>  
+      {$rgn/demographics}
+      </region> 
+    )
+    else if ($elem='GDP') then (
+      <region name='{$rgn/@name}'>  
+      {$rgn/GDP}
+      </region>       
+    )    
+    else if ($elem='ag') then (
+      <region name='{$rgn/@name}'>  
+      {local:query-agsector($rgn, $sectorNames)}
+      </region>       
+    )    
+    else (
+      <region name='{$rgn/@name}'>  
+      {local:query-sector2($rgn, $sectorNames, $elem)}
+      </region> 
+    )  
+};
+
+declare function local:query-sector($region as node(), $sectorNames as xs:string*, $elem as xs:string) as node()*
+{
+  for $sectorName in $sectorNames
+    let $sector := $region/*[@name=$sectorName and @type='sector']   
+  return    
+    if ($elem='sector-cost') then (      
+      <sector name='{$sector/@name}'>  
+        {local:query-sector-cost($sector, $elem)}    
+      </sector> 
+    )
+    else (
+      <sector name='{$sector/@name}'>  
+        {local:query-subsec($sector, $elem)}    
+      </sector>       
+    )
+};
+
+(:return the sector:)
+declare function local:query-sector2($region as node(), $sectorNames as xs:string*, $elem as xs:string) as node()*
+{
+  for $sectorName in $sectorNames
+    let $sector := $region/*[starts-with(@name,$sectorName) and @type='sector']   
+  return           
+    $sector
+};
+
+(:return the all ag-sectors:)
+declare function local:query-agsector($region as node(), $sectorNames as xs:string*) as node()*
+{
+  for $sector in $region/AgSupplySector
+
+  return           
+    $sector
+};
+
+declare function local:query-sector-cost($sector as node(), $elem as xs:string) as node()*
+{
+  let $cost := $sector/cost
+  return $cost
+};
+
+declare function local:query-subsec($sector as node(), $elem as xs:string) as node()*
+{
+  for $subsec in $sector/*[@type='subsector'] 
+  return 
+    if ($elem='subsector-cost') then (      
+      <subsector name='{$subsec/@name}'>  
+        {$subsec/cost}
+      </subsector> 
+    )
+    else (
+      <subsector name='{$subsec/@name}'>  
+        {local:query-tech($subsec, $elem)} 
+      </subsector>      
+    )
+};
+
+declare function local:query-tech($subsec as node(), $elem as xs:string) as node()*
+{
+  for $tech in $subsec/*[@type='technology'] 
+  return $tech
+};
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenarios>
+  <scenario>
+    <name>Simple</name>
+    <description>Simple default scenario</description>
+    <file>workspace_ref.ws.xml</file>
+  </scenario>
+  <scenario>
+    <name>Disaggreated</name>
+    <description>Scenario with disaggreaged technologies</description>
+    <file>workspace_detail.ws.xml</file>
+  </scenario>
+</scenarios>

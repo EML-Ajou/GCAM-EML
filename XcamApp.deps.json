@@ -1,0 +1,314 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "XcamApp/1.0.0": {
+        "dependencies": {
+          "CommonLib": "1.0.0",
+          "CoreLib": "1.0.0",
+          "SfChartControl": "1.0.0",
+          "Syncfusion.Licensing": "19.1.0.58",
+          "Syncfusion.SfDiagram.WPF": "19.1.0.58",
+          "Syncfusion.SfMaps.WPF": "19.1.0.58",
+          "Syncfusion.SfTreeView.WPF": "19.1.0.58",
+          "WpfControl": "1.0.0",
+          "XcamCore": "1.0.0"
+        },
+        "runtime": {
+          "XcamApp.dll": {}
+        }
+      },
+      "MathNet.Numerics/4.15.0": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "4.15.0.0",
+            "fileVersion": "4.15.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/6.0.0-preview.1.21102.12": {},
+      "Syncfusion.Licensing/19.1.0.58": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.1.0.58",
+            "fileVersion": "19.1.0.58"
+          }
+        }
+      },
+      "Syncfusion.SfBusyIndicator.WPF/19.1.0.58": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.1.0.58"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.SfBusyIndicator.WPF.dll": {
+            "assemblyVersion": "19.1500.0.58",
+            "fileVersion": "19.1500.0.58"
+          }
+        }
+      },
+      "Syncfusion.SfChart.WPF/19.1.0.58": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.1.0.58"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.SfChart.WPF.dll": {
+            "assemblyVersion": "19.1500.0.58",
+            "fileVersion": "19.1500.0.58"
+          }
+        }
+      },
+      "Syncfusion.SfDiagram.WPF/19.1.0.58": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.1.0.58",
+          "Syncfusion.Shared.WPF": "19.1.0.58"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.SfDiagram.WPF.dll": {
+            "assemblyVersion": "19.1500.0.58",
+            "fileVersion": "19.1500.0.58"
+          }
+        }
+      },
+      "Syncfusion.SfGridCommon.WPF/19.1.0.58": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.1.0.58"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.SfGridCommon.WPF.dll": {
+            "assemblyVersion": "19.1500.0.58",
+            "fileVersion": "19.1500.0.58"
+          }
+        }
+      },
+      "Syncfusion.SfMaps.WPF/19.1.0.58": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.1.0.58",
+          "Syncfusion.Shared.WPF": "19.1.0.58"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.SfMaps.WPF.dll": {
+            "assemblyVersion": "19.1500.0.58",
+            "fileVersion": "19.1500.0.58"
+          }
+        }
+      },
+      "Syncfusion.SfTreeView.WPF/19.1.0.58": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.1.0.58",
+          "Syncfusion.SfBusyIndicator.WPF": "19.1.0.58",
+          "Syncfusion.SfGridCommon.WPF": "19.1.0.58",
+          "Syncfusion.Shared.WPF": "19.1.0.58"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.SfTreeView.WPF.dll": {
+            "assemblyVersion": "19.1500.0.58",
+            "fileVersion": "19.1500.0.58"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/19.1.0.58": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.1.0.58"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "19.1500.0.58",
+            "fileVersion": "19.1500.0.58"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.1.21102.12": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/6.0.0-preview.1.21102.12": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "6.0.0-preview.1.21102.12",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.10212"
+          }
+        }
+      },
+      "CommonLib/1.0.0": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "6.0.0-preview.1.21102.12"
+        },
+        "runtime": {
+          "CommonLib.dll": {}
+        }
+      },
+      "CoreLib/1.0.0": {
+        "dependencies": {
+          "CommonLib": "1.0.0",
+          "XcamCore": "1.0.0"
+        },
+        "runtime": {
+          "CoreLib.dll": {}
+        }
+      },
+      "SfChartControl/1.0.0": {
+        "dependencies": {
+          "CommonLib": "1.0.0",
+          "Syncfusion.SfChart.WPF": "19.1.0.58",
+          "WpfControl": "1.0.0"
+        },
+        "runtime": {
+          "SfChartControl.dll": {}
+        }
+      },
+      "WpfControl/1.0.0": {
+        "dependencies": {
+          "CommonLib": "1.0.0"
+        },
+        "runtime": {
+          "WpfControl.dll": {}
+        }
+      },
+      "XcamCore/1.0.0": {
+        "dependencies": {
+          "CommonLib": "1.0.0",
+          "MathNet.Numerics": "4.15.0"
+        },
+        "runtime": {
+          "XcamCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XcamApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathNet.Numerics/4.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cP4QgPPiU7boMyL8npvuQyVGVYUd/JQY1AWa+Wl2f//fuJN40qwt9ABRazunZIcDLHg3SSlgD/e+3Lnp69jNTg==",
+      "path": "mathnet.numerics/4.15.0",
+      "hashPath": "mathnet.numerics.4.15.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mdF/p3nqdGOOzMGSiO1nf6M0/LmJziyfDW1H16TYwZvj++4+bC4VzH7BEUyX8IjcXJCxvO2uTfym/ZeNJVGthA==",
+      "path": "microsoft.netcore.platforms/6.0.0-preview.1.21102.12",
+      "hashPath": "microsoft.netcore.platforms.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.1.0.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GnNbMdbrupvjQ/5ZxWc5zL1oW7FI6KrzAogcMn+wrmKgP8zvE854dWNoGOYhoYtKiDeEuJeBq4No3f4+rFdJWA==",
+      "path": "syncfusion.licensing/19.1.0.58",
+      "hashPath": "syncfusion.licensing.19.1.0.58.nupkg.sha512"
+    },
+    "Syncfusion.SfBusyIndicator.WPF/19.1.0.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZLfdJTkQ2JvouWOzQo1Y7Vvh9ViOEx0Mwvufl3XcotVYUoT4L+vNwCYBoa7IOZSmh/viPSh7oxAJ2INTbReJjw==",
+      "path": "syncfusion.sfbusyindicator.wpf/19.1.0.58",
+      "hashPath": "syncfusion.sfbusyindicator.wpf.19.1.0.58.nupkg.sha512"
+    },
+    "Syncfusion.SfChart.WPF/19.1.0.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0TcjCx10jjIBSUsKbOHO3v6uSM20jgIEchM6yCi7eEBOus20O2Xbp5Ftxs/mXID6kXVOnNZsv0fC4juKznHhUg==",
+      "path": "syncfusion.sfchart.wpf/19.1.0.58",
+      "hashPath": "syncfusion.sfchart.wpf.19.1.0.58.nupkg.sha512"
+    },
+    "Syncfusion.SfDiagram.WPF/19.1.0.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uFQuLy9Xsytt9z+EDCXrUmdixHG0XZkedJB5I38yRNIIEU9oHW7CMiVBk9Yroml3hStyn0YWjfQnC7Z70NB9Mg==",
+      "path": "syncfusion.sfdiagram.wpf/19.1.0.58",
+      "hashPath": "syncfusion.sfdiagram.wpf.19.1.0.58.nupkg.sha512"
+    },
+    "Syncfusion.SfGridCommon.WPF/19.1.0.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WvDgut+4LB8N0cfZx3R1Y6oVctSeHXbbs793n9Y09j2lWTQnVCXbYgkQ0lilkXymrYtmqwra1rzNAPA7Kn3FsQ==",
+      "path": "syncfusion.sfgridcommon.wpf/19.1.0.58",
+      "hashPath": "syncfusion.sfgridcommon.wpf.19.1.0.58.nupkg.sha512"
+    },
+    "Syncfusion.SfMaps.WPF/19.1.0.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-niZturj9aiAGneQt9e42NCcz7pwqq3kblx7myckRVsqatgpfHftp+zP3dXhsic2QA541ZD3pcFcb473w0dsfQQ==",
+      "path": "syncfusion.sfmaps.wpf/19.1.0.58",
+      "hashPath": "syncfusion.sfmaps.wpf.19.1.0.58.nupkg.sha512"
+    },
+    "Syncfusion.SfTreeView.WPF/19.1.0.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K27t7EvZ8iYHghyWRf/u+zJ59yFrmU4l3/BJmqmEi9ut4cDKpbiIa9mviub8RrbBKRwCdmOHuJ6syi0ApTs72g==",
+      "path": "syncfusion.sftreeview.wpf/19.1.0.58",
+      "hashPath": "syncfusion.sftreeview.wpf.19.1.0.58.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/19.1.0.58": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rDTt4AHnZu0v+DFd960MphtqMGSGAeXtW9tHC5412B0XPp8ZJjovGSGTatVL5QzimJ6cKxH6SEHPBkTv1Sh0zA==",
+      "path": "syncfusion.shared.wpf/19.1.0.58",
+      "hashPath": "syncfusion.shared.wpf.19.1.0.58.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OpeMUeevV3isOGNeiEwuBNq4fNA4B5SuFb941AxzKyjtddknFCV0ykIxyIA4Xxy5O3NjHmnfzqdv4thfC76mwg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0-preview.1.21102.12",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/6.0.0-preview.1.21102.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-49GKCJ00hrYxEQbsr3pRBettXZ0c2Qv+KByCoJAC7wiwwnHG95ql/SnTl1VFxs3RhYg2+7VWxoKVDi1mg1hT4w==",
+      "path": "system.text.encoding.codepages/6.0.0-preview.1.21102.12",
+      "hashPath": "system.text.encoding.codepages.6.0.0-preview.1.21102.12.nupkg.sha512"
+    },
+    "CommonLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SfChartControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XcamCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

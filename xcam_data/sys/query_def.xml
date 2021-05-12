@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xcam-query>
-  <sector-queries>
+  <category name="Energy" input-unit="EJ">
     <query name="Primary Energy" id="primary_energy">
       <sector name="regional coal"/>
       <sector name="regional oil"/>
       <sector name="regional natural gas"/>
       <sector name="regional biomass"/>
       <sector name="regional biomassOil"/>
+      <sector name="regional corn for ethanol"/>
       <sector name="resid*"/>
       <sector name="electricity"/>
     </query>
@@ -14,7 +15,7 @@
       <sector name="electricity"/>
       <!--<sector name="elect_td_bld"/>-->
     </query>
-    <query name="Elect Demand" id="elect_demand">
+    <query name="*Elect Demand" id="elect_demand">
       <sector name="elect_td_bld"/>
       <sector name="elect_td_ind"/>
       <sector name="elect_td_trn"/>
@@ -32,6 +33,12 @@
       <sector name="process heat cement"/>
       <sector name="N fertilizer"/>
     </query>
+    <query name="Industry (w/o N fertilizer)" id="ind_iea">
+      <sector name="industrial energy use"/>
+      <sector name="industrial feedstocks"/>
+      <sector name="cement"/>
+      <sector name="process heat cement"/>
+    </query>
     <query name="Commercial" id="comm">
       <sector name="comm*"/>
     </query>
@@ -42,13 +49,13 @@
       <ref-query name="Commercial"/>
       <ref-query name="Residential"/>
     </query>
-    <query name="Transportation (Passenger)">
+    <query name="Transport (Passenger)">
       <sector name="trn_pass*"/>
     </query>
-    <query name="Transportation (Freight)">
+    <query name="Transport (Freight)">
       <sector name="trn_freight*"/>
     </query>
-    <query name="Transportation" id="trn">
+    <query name="Transport" id="trn">
       <sector name="trn_pass*" group="passenger"/>
       <sector name="trn_freight*" group="freight"/>
       <sector name="trn_aviation_intl" group="intl aviation"/>
@@ -58,53 +65,233 @@
       <ref-query name="Commercial"/>
       <ref-query name="Residential"/>
       <ref-query name="Industry"/>
-      <ref-query name="Transportation"/>
+      <ref-query name="Transport"/>
     </query>
     <query name="End Use Sectors &amp; Electricity" id="enduse_elec_sectors">
       <ref-query name="Commercial"/>
       <ref-query name="Residential"/>
       <ref-query name="Industry"/>
-      <ref-query name="Transportation"/>
+      <ref-query name="Transport"/>
       <ref-query name="Electricity"/>
     </query>
+  </category>
+  
+  <category name="Socioeconomic" output-option="none" aggr-option="_region">
+    <query name="Population">
+      <xpath>demographics/populationMiniCAM</xpath>
+    </query>
+    <query name="GDP MER">
+      <xpath>GDP/gdp-mer</xpath>
+    </query>
+    <query name="GDP per capita MER">
+      <xpath>GDP/gdp-per-capita-mer</xpath>
+    </query>
+    <query name="GDP per capita PPP">
+      <xpath>GDP/gdp-per-capita-ppp</xpath>
+    </query>
+  </category>
+  
+  <category name="Agriculture and Animal" input-unit="Mt">
+    <query name="ag production">
+      <ag-sector name="*"/>
+    </query>
+    <query name="Animal">
+      <sector name="Beef"/>
+      <sector name="SheepGoat"/>
+      <sector name="Pork"/>
+      <sector name="Dairy"/>
+      <sector name="Poultry"/>
+    </query>
+    <query name="Feed Sources">
+      <sector name="FodderHerb_Residue"/>
+      <sector name="Pasture_FodderGrass"/>
+      <sector name="FeedCrops"/>
+      <sector name="Scavenging_Other"/>
+    </query>
+    <query name="Food Consumption">
+      <sector name="FoodDemand_Crops"/>
+      <sector name="FoodDemand_Meat"/>
+    </query>
+    <query name="Demand Balances">
+      <sector name="regional fibercrop"/>
+      <sector name="regional misccrop"/>
+      <sector name="regional oilcrop"/>
+      <sector name="regional othergrain"/>
+      <sector name="regional palmfruit"/>
+      <sector name="regional rice"/>
+      <sector name="regional root_tuber"/>
+      <sector name="regional sugarcrop"/>
+      <sector name="regional wheat"/>
+      <sector name="FodderGrass"/>
+      <sector name="FodderHerb"/>
+      <sector name="Forest"/>
+      <sector name="Pasture"/>
+    </query>
+  </category>
+  
+  <category name="Water" output-option="none" input-unit="km^3">
+    <query name="Water Withdrawal">
+      <sector name="*"/>
+      <xpath-input>*[@type='input' and contains(@name,'water_td') and contains(@name,'_W')]/demand-physical</xpath-input>
+    </query>
+    <query name="Water Consumption">
+      <sector name="*"/>
+      <xpath-input>*[@type='input' and contains(@name,'water_td') and contains(@name,'_C')]/demand-physical</xpath-input>
+    </query>
+    <query name="Water Supply">
+    </query>
+    <query name="Elec Water Withdrawal">
+      <sector name="*"/>
+      <xpath-input>*[@type='input' and @name='water_td_elec_W']/demand-physical</xpath-input>
+    </query>
+    <query name="Elec Water Consumption">
+      <sector name="*"/>
+      <xpath-input>*[@type='input' and @name='water_td_elec_C']/demand-physical</xpath-input>
+    </query>
+    <query name="Irrigation Water Withdrawal">
+      <sector name="*"/>
+      <xpath-input>*[@type='input' and contains(@name,'water_td_irr') and contains(@name,'_W')]/demand-physical</xpath-input>
+    </query>
+    <query name="Irrigation Water Consumption">
+      <sector name="*"/>
+      <xpath-input>*[@type='input' and contains(@name,'water_td_irr') and contains(@name,'_C')]/demand-physical</xpath-input>
+    </query>
+    <query name="Biophysical Water Demand">
+      <sector name="*"/>
+      <xpath-input>*[@type='input' and @name='biophysical water consumption']/demand-physical</xpath-input>
+    </query>
+    <query name="Meat and Dairy Water Consumption">
+      <sector name="*"/>
+      <xpath-input>*[@type='input' and contains(@name,'water_td_an') and contains(@name,'_C')]/demand-physical</xpath-input>
+    </query>
+  </category>
+
+  <!-- query names are hard-coded -->
+  <category name="Land Use" output-option="none" aggr-option="Land Use">
+    <query name="Land Allocation">
+      <xpath>land-allocation</xpath>
+    </query>
+    <query name="Land Allocation by Crop">
+      <xpath>land-allocation</xpath>
+    </query>
+    <query name="Land Allocation by aggr Crop">
+      <xpath>land-allocation</xpath>
+    </query>
+    <query name="Land Share">
+      <xpath>share</xpath>
+    </query>
+    <query name="Profit Rate">
+      <xpath>profit-rate</xpath>
+    </query>
+    <query name="LUC Emissions by Region">
+      <xpath>land-carbon-densities/land-use-change-emission</xpath>
+    </query>
+    <query name="LUC Emissions">
+      <xpath>land-carbon-densities/land-use-change-emission</xpath>
+    </query>
+    <query name="Above Ground Emissions">
+      <xpath>land-carbon-densities/above-land-use-change-emission</xpath>
+    </query>
+    <query name="Below Ground Emissions">
+      <xpath>land-carbon-densities/below-land-use-change-emission</xpath>
+    </query>
+  </category>
+
+  <!-- query names are hard-coded -->
+  <category name="Building" output-option="none" aggr-option="Building">
+    <query name="Building Floorspace">
+      <xpath>.//floorspace</xpath>
+    </query>
+    <query name="Building Energy Price">
+      <xpath>.//price</xpath>
+    </query>
+    <query name="Building per capita income">
+      <xpath>.//subregional-percapita-income</xpath>
+    </query>
+    <query name="Building population">
+      <xpath>.//subregional-population</xpath>
+    </query>
+  </category>
+
+  <category name="Market" output-option="none" aggr-option="Market">
+    <query name="Market Price">
+      <xpath>price</xpath>
+    </query>
+    <query name="Market Supply">
+      <xpath>supply</xpath>
+    </query>
+    <query name="Market Demand">
+      <xpath>demand</xpath>
+    </query>
+    <query name="Global Market Price">
+      <xpath>price</xpath>
+    </query>
+    <query name="Global Market Supply">
+      <xpath>supply</xpath>
+    </query>
+    <query name="Global Market Demand">
+      <xpath>demand</xpath>
+    </query>
+  </category>
+
+  <category name="Climate" output-option="none" aggr-option="_none">
+    <query name="CO2 concentrations">
+      <xpath>climate-model/CO2-concentration</xpath>
+    </query>
+    <query name="Total Climate Forcing">
+      <xpath>climate-model/forcing-total</xpath>
+    </query>
+    <query name="Global Mean Temperature">
+      <xpath>climate-model/global-mean-temperature</xpath>
+    </query>
+    <query name="Net Terrestrial C uptake">
+      <xpath>climate-model/net-terrestrial-uptake</xpath>
+    </query>
+    <query name="Climate Model">
+      <xpath>climate-model</xpath>
+    </query>
+  </category>
+
+  <category name="Policy" output-option="none" aggr-option="Market">
+    <query name="CO2 Prices">
+      <xpath>Marketplace/market[true() and contains(@name,'CO2')]/price</xpath>
+    </query>
+  </category>
+
+  <category name="Others">
     <query name="All Sectors">
       <sector name="*"/>
     </query>
-  </sector-queries>
-  <general-queries>
-    <query name="Population">
-      demographics/populationMiniCAM
-    </query>
-    <query name="GDP MER">
-      GDP/gdp-mer
-    </query>
-    <query name="GDP per capita MER">
-      GDP/gdp-per-capita-mer
-    </query>
-    <query name="GDP per capita PPP">
-      GDP/gdp-per-capita-ppp
-    </query>
-    <query name="market price">
-      Marketplace/market/price
-    </query>
-    <query name="market supply">
-      Marketplace/market/supply
-    </query>
-    <query name="building floorspace">
-      gcam-consumer//floorspace
-    </query>
-    <query name="building energy price">
-      gcam-consumer//price
-    </query>
-    <query name="subregional per capita income">
-      gcam-consumer//subregional-percapita-income
-    </query>
-    <query name="subregional population">
-      gcam-consumer//subregional-population
-    </query>
-    <query name="building energy price">
-      gcam-consumer//price
-    </query>
+  </category>
 
-  </general-queries>
+  <tag name="Three fuels" aggr-type="Fuel">
+    <group name="Coal" color="DarkGray" >
+      <item>coal</item>
+    </group>
+    <group name="Oil &amp; Gas" color="Orange" >
+      <item>oil</item>
+      <item>refined liquids</item>
+      <item>natural gas</item>
+      <item>gas</item>
+    </group>
+    <group name="Non-fossil" color="LimeGreen" >
+      <item>biomass</item>
+      <item>trad biomass</item>
+      <item>nuclear</item>
+      <item>wind</item>
+      <item>solar</item>
+      <item>hydro</item>
+      <item>geothermal</item>
+    </group>
+  </tag>
+  
+  <tag name="Aggr renewable" aggr-type="Fuel">
+    <group name="renewable" color="DodgerBlue" >
+      <item>wind</item>
+      <item>solar</item>
+      <item>hydro</item>
+      <item>geothermal</item>
+    </group>
+  </tag>
+
 </xcam-query>

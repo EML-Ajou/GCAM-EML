@@ -1,0 +1,67 @@
+#IEA,Cambodia,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,,,,,,172,,4219,,,4391
+Imports,587,,2021,,,,,,131,,2739
+Exports,,,,,,,,,,,
+International marine bunkers,,,,,,,,,,,
+International aviation bunkers,,,-93,,,,,,,,-93
+Stock changes,,,,,,,,,,,
+TES,587,,1928,,,172,,4219,131,,7037
+Transfers,,,-1,,,,,,,,-1
+Statistical differences,-1,,,,,,,,,,-1
+Electricity plants,-574,,-60,,,-172,,-13,378,,-441
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,,,,,,,,,,
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,-588,,,-588
+Energy industry own use,,,,,,,,,-11,,-11
+Losses,,,,,,,,,-70,,-70
+Total final consumption,12,,1866,,,,,3618,429,,5925
+Industry,12,,56,,,,,886,77,,1031
+Transport,,,1395,,,,,,,,1395
+Residential,,,191,,,,,2732,216,,3139
+Commercial and public services,,,,,,,,,118,,118
+Agriculture / forestry,,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Non-specified,,,178,,,,,,17,,195
+Non-energy use,,,46,,,,,,,,46
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,2128,,,,,,,,,,
+Oil,228,,,,,,,,,,
+Natural gas,,,,,,,,,,,
+Biofuels,38,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,2000,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,3,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,4397,,,,,,,,,,
+Imports,1526,,,,,,,,,,
+Exports,,,,,,,,,,,
+Domestic supply,5923,,,,,,,,,,
+Statistical differences,,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,129,,,,,,,,,,
+Losses,810,,,,,,,,,,
+Final consumption,4984,,,,,,,,,,
+Industry,901,,,,,,,,,,
+Transport,,,,,,,,,,,
+Residential,2512,,,,,,,,,,
+Commercial and public services,1378,,,,,,,,,,
+Agriculture / forestry,,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,193,,,,,,,,,,

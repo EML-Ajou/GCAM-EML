@@ -1,0 +1,67 @@
+#IEA,Nigeria,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,29,108325,,35686,,492,2,111506,,,256040
+Imports,,,17295,,,,,,,,17295
+Exports,,-108062,-120,-21508,,,,,,,-129689
+International marine bunkers,,,-369,,,,,,,,-369
+International aviation bunkers,,,-361,,,,,,,,-361
+Stock changes,,1598,515,,,,,,,,2113
+TES,29,1861,16961,14179,,492,2,111506,,,145029
+Transfers,,199,-150,,,,,,,,50
+Statistical differences,,-6,-77,-110,,,,,-139,,-333
+Electricity plants,,,,-5739,,-492,-2,,2790,,-3443
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,-1762,1640,,,,,,,,-122
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,200,,-440,,,,,,,-240
+Other transformation,,,,,,,,-8764,,,-8764
+Energy industry own use,,,-165,-4127,,,,,-95,,-4387
+Losses,,-492,-41,,,,,,-418,,-952
+Total final consumption,29,,18168,3763,,,,102742,2136,,126838
+Industry,29,,439,2443,,,,4153,337,,7402
+Transport,,,15209,,,,,,,,15209
+Residential,,,541,,,,,95817,1236,,97594
+Commercial and public services,,,1,,,,,2771,563,,3336
+Agriculture / forestry,,,4,,,,,,,,4
+Fishing,,,,,,,,,,,
+Non-specified,,,1748,,,,,,,,1748
+Non-energy use,,,226,1320,,,,,,,1546
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,,,,,,,,,,,
+Oil,,,,,,,,,,,
+Natural gas,26697,,,,,,,,,,
+Biofuels,,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,5721,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,24,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,32442,,,,,,,,,,
+Imports,,,,,,,,,,,
+Exports,,,,,,,,,,,
+Domestic supply,32442,,,,,,,,,,
+Statistical differences,-1622,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,1107,,,,,,,,,,
+Losses,4866,,,,,,,,,,
+Final consumption,24847,,,,,,,,,,
+Industry,3918,,,,,,,,,,
+Transport,,,,,,,,,,,
+Residential,14379,,,,,,,,,,
+Commercial and public services,6550,,,,,,,,,,
+Agriculture / forestry,,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,,,,,,,,,,,

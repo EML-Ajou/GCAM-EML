@@ -1,0 +1,67 @@
+#IEA,Colombia,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,55606,52568,,10380,,4176,7,6018,,,128754
+Imports,,,6590,,,,,,4,,6594
+Exports,-48232,-41114,-2488,-285,,,,-10,-40,,-92169
+International marine bunkers,,,-297,,,,,,,,-297
+International aviation bunkers,,,-1347,,,,,,,,-1347
+Stock changes,-2321,-481,1832,,,,,-9,,,-980
+TES,5053,10973,4290,10095,,4176,7,5999,-36,,40556
+Transfers,,1964,-2082,,,,,,,,-119
+Statistical differences,-814,246,-714,-1658,,,,-26,-307,,-3274
+Electricity plants,-1581,-235,-768,-3338,,-4176,-7,-349,6758,,-3696
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,-12691,11757,,,,,,,,-934
+Coal transformation,-343,,,,,,,,,,-343
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,-50,,,-50
+Energy industry own use,-21,-247,-421,-1318,,,,,-656,,-2664
+Losses,-4,,,,,,,,-612,,-616
+Total final consumption,2289,9,12061,3780,,,,5574,5147,,28860
+Industry,2225,9,582,1099,,,,1626,1621,,7163
+Transport,,,8688,633,,,,679,8,,10009
+Residential,64,,400,948,,,,2826,1924,,6162
+Commercial and public services,,,69,332,,,,,1123,,1525
+Agriculture / forestry,,,102,,,,,427,51,,579
+Fishing,,,,,,,,,,,
+Non-specified,,,1363,768,,,,17,420,,2568
+Non-energy use,,,855,,,,,,,,855
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,7090,,,,,,,,,,
+Oil,3535,,,,,,,,,,
+Natural gas,17955,,,,,,,,,,
+Biofuels,1371,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,48568,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,9,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,68,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,78596,,,,,,,,,,
+Imports,45,,,,,,,,,,
+Exports,-460,,,,,,,,,,
+Domestic supply,78181,,,,,,,,,,
+Statistical differences,-3570,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,7635,,,,,,,,,,
+Losses,7118,,,,,,,,,,
+Final consumption,59858,,,,,,,,,,
+Industry,18855,,,,,,,,,,
+Transport,91,,,,,,,,,,
+Residential,22377,,,,,,,,,,
+Commercial and public services,13064,,,,,,,,,,
+Agriculture / forestry,589,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,4882,,,,,,,,,,

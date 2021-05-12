@@ -1,0 +1,67 @@
+#IEA,Kyrgyzstan,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,"Wind, solar, etc.",Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,708,108,,25,,954,,3,,,1797
+Imports,680,225,1629,205,,,,,63,,2802
+Exports,-104,,-107,,,,,,-16,,-227
+International marine bunkers,,,,,,,,,,,
+International aviation bunkers,,,-108,,,,,,,,-108
+Stock changes,-156,-8,-120,,,,,,,,-284
+TES,1128,325,1295,229,,954,,3,47,,3981
+Transfers,,,,,,,,,,,
+Statistical differences,-54,,-1,,,,,,,-1,-56
+Electricity plants,-8,,,,,-954,,,956,,-6
+CHP plants,-532,,-15,-52,,,,,164,314,-121
+Heat plants,-51,,-11,-42,,,,,,86,-19
+Gas works,,,,,,,,,,,
+Oil refineries,,-325,322,,,,,,,,-3
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,,,,
+Energy industry own use,,,-16,-3,,,,,-28,-88,-135
+Losses,-1,,-3,-15,,,,,-229,-27,-276
+Total final consumption,481,,1569,118,,,,3,910,283,3365
+Industry,201,,297,20,,,,,203,14,735
+Transport,,,910,,,,,,15,,925
+Residential,212,,211,85,,,,2,595,146,1251
+Commercial and public services,,,23,,,,,,72,119,215
+Agriculture / forestry,2,,98,2,,,,,19,,122
+Fishing,,,,,,,,,,,
+Non-specified,59,,12,11,,,,,7,3,93
+Non-energy use,7,,18,,,,,,,,24
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,1722,13421,,,,,,,,,
+Oil,38,725,,,,,,,,,
+Natural gas,170,2599,,,,,,,,,
+Biofuels,,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,11100,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,13030,16745,,,,,,,,,
+Imports,729,,,,,,,,,,
+Exports,-184,,,,,,,,,,
+Domestic supply,13575,16745,,,,,,,,,
+Statistical differences,,-50,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,320,3681,,,,,,,,,
+Losses,2668,1149,,,,,,,,,
+Final consumption,10587,11865,,,,,,,,,
+Industry,2356,602,,,,,,,,,
+Transport,174,,,,,,,,,,
+Residential,6915,6110,,,,,,,,,
+Commercial and public services,840,4999,,,,,,,,,
+Agriculture / forestry,225,12,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,77,142,,,,,,,,,

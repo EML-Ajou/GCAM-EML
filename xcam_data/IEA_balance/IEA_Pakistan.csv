@@ -1,0 +1,67 @@
+#IEA,Pakistan,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,1736,4756,,24258,1200,2978,85,33998,,,69011
+Imports,3226,8997,14272,2284,,,,,40,,28818
+Exports,,-319,-950,,,,,,,,-1269
+International marine bunkers,,,-50,,,,,,,,-50
+International aviation bunkers,,,-733,,,,,,,,-733
+Stock changes,,,177,15,,,,,,,192
+TES,4962,13434,12715,26557,1200,2978,85,33998,40,,95969
+Transfers,,-478,507,,,,,,,,28
+Statistical differences,70,-488,144,1503,,,,,,,1229
+Electricity plants,-119,,-7584,-8150,-1200,-2978,-85,-239,9570,,-10785
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,-12467,11929,,,,,,,,-538
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,-675,,,-675
+Energy industry own use,,,-213,-140,,,,,-355,,-707
+Losses,,,,-1618,,,,,-1480,,-3098
+Total final consumption,4913,,17499,18153,,,,33084,7775,,81424
+Industry,4913,,2020,6557,,,,3672,2153,,19315
+Transport,,,13529,1433,,,,,,,14962
+Residential,,,543,6032,,,,29412,3825,,39813
+Commercial and public services,,,674,748,,,,,1065,,2486
+Agriculture / forestry,,,16,,,,,,733,,749
+Fishing,,,,,,,,,,,
+Non-specified,,,298,,,,,,,,298
+Non-energy use,,,419,3383,,,,,,,3802
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,148,,,,,,,,,,
+Oil,35362,,,,,,,,,,
+Natural gas,35001,,,,,,,,,,
+Biofuels,556,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,4605,,,,,,,,,,
+Hydro,34633,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,207,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,786,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,111298,,,,,,,,,,
+Imports,463,,,,,,,,,,
+Exports,,,,,,,,,,,
+Domestic supply,111761,,,,,,,,,,
+Statistical differences,,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,4123,,,,,,,,,,
+Losses,17209,,,,,,,,,,
+Final consumption,90429,,,,,,,,,,
+Industry,25035,,,,,,,,,,
+Transport,,,,,,,,,,,
+Residential,44486,,,,,,,,,,
+Commercial and public services,12382,,,,,,,,,,
+Agriculture / forestry,8526,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,,,,,,,,,,,

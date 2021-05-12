@@ -1,0 +1,67 @@
+#IEA,Kenya,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,"Wind, solar, etc.",Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,,,,,,326,3860,16380,,,20566
+Imports,495,,5026,,,,,,6,,5526
+Exports,,,-27,,,,,,-4,,-31
+International marine bunkers,,,-41,,,,,,,,-41
+International aviation bunkers,,,-676,,,,,,,,-676
+Stock changes,,,,,,,,,,,
+TES,495,,4281,,,326,3860,16380,2,,25344
+Transfers,,,,,,,,,,,
+Statistical differences,,,53,,,,,,15,,68
+Electricity plants,,,-346,,,-326,-3860,-35,834,,-3733
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,,,,,,,,,,
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,-5460,,,-5460
+Energy industry own use,,,,,,,,,-2,,-2
+Losses,,,,,,,,,-164,,-164
+Total final consumption,495,,3989,,,,,10885,685,,16054
+Industry,495,,674,,,,,,363,,1532
+Transport,,,2708,,,,,,,,2708
+Residential,,,432,,,,,10885,219,,11536
+Commercial and public services,,,,,,,,,103,,103
+Agriculture / forestry,,,24,,,,,,,,24
+Fishing,,,,,,,,,,,
+Non-specified,,,42,,,,,,,,42
+Non-energy use,,,109,,,,,,,,109
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,,,,,,,,,,,
+Oil,1206,,,,,,,,,,
+Natural gas,,,,,,,,,,,
+Biofuels,122,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,3787,,,,,,,,,,
+Geothermal,4479,,,,,,,,,,
+Solar PV,50,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,57,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,9701,,,,,,,,,,
+Imports,67,,,,,,,,,,
+Exports,-45,,,,,,,,,,
+Domestic supply,9723,,,,,,,,,,
+Statistical differences,171,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,26,,,,,,,,,,
+Losses,1905,,,,,,,,,,
+Final consumption,7963,,,,,,,,,,
+Industry,4226,,,,,,,,,,
+Transport,,,,,,,,,,,
+Residential,2544,,,,,,,,,,
+Commercial and public services,1193,,,,,,,,,,
+Agriculture / forestry,,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,,,,,,,,,,,

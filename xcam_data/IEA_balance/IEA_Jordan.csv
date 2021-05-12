@@ -1,0 +1,67 @@
+#IEA,Jordan,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,,,,101,,5,170,5,,,281
+Imports,175,3467,3220,1843,,,,,52,,8757
+Exports,,,,,,,,,-4,,-4
+International marine bunkers,,,-5,,,,,,,,-5
+International aviation bunkers,,,-302,,,,,,,,-302
+Stock changes,,-88,-14,,,,,,,,-102
+TES,175,3379,2899,1944,,5,170,5,48,,8625
+Transfers,,,,,,,,,,,
+Statistical differences,,1,29,-20,,,,,-49,,-39
+Electricity plants,,,-2068,-1924,,-5,-11,-1,1634,,-2373
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,-3380,3147,,,,,,,,-234
+Coal transformation,,,,,,,,,,,
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,,,,
+Energy industry own use,,,-185,,,,,,-58,,-243
+Losses,,,,,,,,,-188,,-188
+Total final consumption,175,,3822,,,,160,4,1387,,5548
+Industry,175,,313,,,,,,319,,806
+Transport,,,2613,,,,,,,,2613
+Residential,,,550,,,,127,4,621,,1303
+Commercial and public services,,,123,,,,33,,239,,395
+Agriculture / forestry,,,,,,,,,207,,207
+Fishing,,,,,,,,,,,
+Non-specified,,,150,,,,,,,,150
+Non-energy use,,,74,,,,,,,,74
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,,,,,,,,,,,
+Oil,9618,,,,,,,,,,
+Natural gas,9211,,,,,,,,,,
+Biofuels,4,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,53,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,2,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,121,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,19009,,,,,,,,,,
+Imports,604,,,,,,,,,,
+Exports,-50,,,,,,,,,,
+Domestic supply,19563,,,,,,,,,,
+Statistical differences,-568,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,676,,,,,,,,,,
+Losses,2190,,,,,,,,,,
+Final consumption,16129,,,,,,,,,,
+Industry,3705,,,,,,,,,,
+Transport,,,,,,,,,,,
+Residential,7228,,,,,,,,,,
+Commercial and public services,2784,,,,,,,,,,
+Agriculture / forestry,2412,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,,,,,,,,,,,

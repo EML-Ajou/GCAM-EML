@@ -104,32 +104,32 @@
   </query>
 
   <!--trn-->
-  <query name="Transportation" output-type="InputEnergy" aggr-type="Fuel" >
+  <query name="Transport" output-type="InputEnergy" aggr-type="Fuel" >
     <chart category="Period" series="Item" >
       <property chart-type="StackingColumn" show-tooltip="False"/>
     </chart>
   </query>
-  <query name="Transportation" output-type="PhysicalOutput" aggr-type="Fuel" >
+  <query name="Transport" output-type="PhysicalOutput" aggr-type="Fuel" >
     <chart category="Period" series="Item" >
       <property chart-type="StackingColumn" show-tooltip="False"/>
     </chart>
   </query>
-  <query name="Transportation" output-type="CO2" aggr-type="Fuel" >
+  <query name="Transport" output-type="CO2" aggr-type="Fuel" >
     <chart category="Period" series="Item" >
       <property chart-type="StackingColumn" show-tooltip="False"/>
     </chart>
   </query>
-  <query name="Transportation" output-type="InputEnergy" aggr-type="Group" >
+  <query name="Transport" output-type="InputEnergy" aggr-type="Group" >
     <chart category="Period" series="Item" >
       <property chart-type="StackingColumn" show-tooltip="False"/>
     </chart>
   </query>
-  <query name="Transportation" output-type="PhysicalOutput" aggr-type="Group" >
+  <query name="Transport" output-type="PhysicalOutput" aggr-type="Group" >
     <chart category="Period" series="Item" >
       <property chart-type="StackingColumn" show-tooltip="False"/>
     </chart>
   </query>
-  <query name="Transportation" output-type="CO2" aggr-type="Group" >
+  <query name="Transport" output-type="CO2" aggr-type="Group" >
     <chart category="Period" series="Item" >
       <property chart-type="StackingColumn" show-tooltip="False"/>
     </chart>

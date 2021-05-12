@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xcam-configuration>
   <strings>
-    <item name="energy-unit">EJ</item>
+    <item name="energy-unit">PJ</item>
+    <item name="numeric-format">G6</item>
+    <item name="emission-unit">Default</item>
+    <item name="price-unit">Default</item>
   </strings>
-  <ints />
+  <ints>
+    <item name="start-year">2015</item>
+    <item name="end-year">2060</item>
+  </ints>
   <bools />
   <fuels>
     <fuel name="coal" color="DarkGray" />
@@ -14,11 +20,11 @@
     <fuel name="biomass" color="LimeGreen" />
     <fuel name="biomassOil" color="LimeGreen" />
     <fuel name="ethanol" color="LimeGreen" />
-    <fuel name="traditional biomass" color="LightGreen" />
+    <fuel name="traditional biomass" color="Brown" />
     <fuel name="electricity" color="BurlyWood" />
-    <fuel name="nuclear" color="LightSalmon" />
+    <fuel name="nuclear" color="Magenta" />
     <fuel name="solar" color="Gold" />
-    <fuel name="wind" color="Violet" />
+    <fuel name="wind" color="CadetBlue" />
     <fuel name="hydro" color="DodgerBlue" />
     <fuel name="geothermal" color="Peru" />
     <fuel name="H2" color="Peru" />

@@ -1,0 +1,67 @@
+﻿#IEA,Algeria,,,,,,,,,,
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
+Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
+Production,,74724,,71422,,12,7,6,,,146171
+Imports,142,270,4106,,,,,,52,,4571
+Exports,,-32269,-25690,-37003,,,,,-55,,-95017
+International marine bunkers,,,-270,,,,,,,,-270
+International aviation bunkers,,,-508,,,,,,,,-508
+Stock changes,-1,789,300,,,,,,,,1088
+TES,141,43513,-22063,34420,,12,7,6,-3,,56034
+Transfers,,-9744,10290,,,,,,,,546
+Statistical differences,3,560,119,95,,,,,-19,,758
+Electricity plants,,,-435,-15086,,-12,-7,,5916,,-9625
+CHP plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Gas works,,,,,,,,,,,
+Oil refineries,,-33021,30872,,,,,,,,-2150
+Coal transformation,-75,,,,,,,,,,-75
+Liquefication plants,,,,,,,,,,,
+Other transformation,,,,,,,,,,,
+Energy industry own use,,-670,-427,-4208,,,,,-619,,-5924
+Losses,-31,-632,,-490,,,,,-963,,-2115
+Total final consumption,39,7,18355,14732,,,,6,4312,,37451
+Industry,39,,810,3433,,,,4,1500,,5785
+Transport,,7,14853,607,,,,,84,,15550
+Residential,,,1763,6720,,,,2,1691,,10177
+Commercial and public services,,,,246,,,,,276,,522
+Agriculture / forestry,,,33,40,,,,,118,,191
+Fishing,,,,,,,,,,,
+Non-specified,,,316,575,,,,,644,,1534
+Non-energy use,,,580,3112,,,,,,,3692
+,,,,,,,,,,,
+#Electricity,Electricity,Heat,,,,,,,,,
+Unit,GWh,TJ,,,,,,,,,
+Coal,,,,,,,,,,,
+Oil,908,,,,,,,,,,
+Natural gas,67668,,,,,,,,,,
+Biofuels,,,,,,,,,,,
+Waste,,,,,,,,,,,
+Nuclear,,,,,,,,,,,
+Hydro,145,,,,,,,,,,
+Geothermal,,,,,,,,,,,
+Solar PV,58,,,,,,,,,,
+Solar thermal,,,,,,,,,,,
+Wind,19,,,,,,,,,,
+Tide,,,,,,,,,,,
+Other sources,,,,,,,,,,,
+Municipal Waste,,,,,,,,,,,
+Waste (renewable),,,,,,,,,,,
+Total production,68798,,,,,,,,,,
+Imports,610,,,,,,,,,,
+Exports,-641,,,,,,,,,,
+Domestic supply,68767,,,,,,,,,,
+Statistical differences,-217,,,,,,,,,,
+Transformation,,,,,,,,,,,
+Electricity plants,,,,,,,,,,,
+Heat plants,,,,,,,,,,,
+Energy industry own use,7201,,,,,,,,,,
+Losses,11196,,,,,,,,,,
+Final consumption,50153,,,,,,,,,,
+Industry,17441,,,,,,,,,,
+Transport,974,,,,,,,,,,
+Residential,19672,,,,,,,,,,
+Commercial and public services,3207,,,,,,,,,,
+Agriculture / forestry,1375,,,,,,,,,,
+Fishing,,,,,,,,,,,
+Other non-specified,7484,,,,,,,,,,
