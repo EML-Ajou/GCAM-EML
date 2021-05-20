@@ -1,5 +1,5 @@
 #IEA,Kyrgyzstan,,,,,,,,,,
-#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,"Wind, solar, etc.",Biofuels and waste,Electricity,Heat,Total
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
 Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
 Production,708,108,,25,,954,,3,,,1797
 Imports,680,225,1629,205,,,,,63,,2802

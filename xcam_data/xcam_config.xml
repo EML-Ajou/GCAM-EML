@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xcam-configuration>
   <strings>
-    <item name="energy-unit">PJ</item>
+    <item name="energy-unit">GWh</item>
     <item name="numeric-format">G6</item>
-    <item name="emission-unit">Default</item>
+    <item name="emission-unit">MTCO2e</item>
     <item name="price-unit">Default</item>
   </strings>
   <ints>

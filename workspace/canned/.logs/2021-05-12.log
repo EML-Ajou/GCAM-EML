@@ -2,5 +2,7 @@
 16:46:34.070	0:0:0:0:0:0:0:1:61188	admin	REQUEST	EXIT	15.42 ms
 16:46:34.071	0:0:0:0:0:0:0:1:61188	admin	OK		0.6 ms
 16:46:34.366	SERVER	admin	OK	Server was stopped (port: 1984).
-17:11:37.957	SERVER	admin	ERROR	Server is running or permission was denied.
-17:12:37.469	SERVER	admin	ERROR	Server is running or permission was denied.
+18:13:31.855	SERVER	admin	OK	Server was started (port: 1984).
+18:13:31.907	0:0:0:0:0:0:0:1:49723	admin	REQUEST	EXIT	19.36 ms
+18:13:31.907	0:0:0:0:0:0:0:1:49723	admin	OK		0.56 ms
+18:13:32.202	SERVER	admin	OK	Server was stopped (port: 1984).

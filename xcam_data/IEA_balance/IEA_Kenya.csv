@@ -1,5 +1,5 @@
 #IEA,Kenya,,,,,,,,,,
-#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,"Wind, solar, etc.",Biofuels and waste,Electricity,Heat,Total
+#Balance,Coal,Crude oil,Oil products,Natural gas,Nuclear,Hydro,Wind solar etc.,Biofuels and waste,Electricity,Heat,Total
 Unit,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe,ktoe
 Production,,,,,,326,3860,16380,,,20566
 Imports,495,,5026,,,,,,6,,5526
