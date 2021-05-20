@@ -1,8 +1,0 @@
-00:01:33.171	SERVER	admin	OK	Server was started (port: 1984).
-00:01:33.409	0:0:0:0:0:0:0:1:52100	admin	REQUEST	EXIT	17.95 ms
-00:01:33.409	0:0:0:0:0:0:0:1:52100	admin	OK		0.53 ms
-00:01:33.703	SERVER	admin	OK	Server was stopped (port: 1984).
-23:47:46.041	SERVER	admin	OK	Server was started (port: 1984).
-23:47:46.073	0:0:0:0:0:0:0:1:52786	admin	REQUEST	EXIT	14.95 ms
-23:47:46.074	0:0:0:0:0:0:0:1:52786	admin	OK		0.51 ms
-23:47:46.400	SERVER	admin	OK	Server was stopped (port: 1984).
