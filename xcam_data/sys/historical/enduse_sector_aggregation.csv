@@ -1,30 +1,40 @@
-# File: enduse_sector_aggregation.csv,
-# Title: Mapping from first intermediate sector to aggregated intermediate sector,
-# Units: None,
-# Column types: cc ,
-# ----------,
-sector,sector_agg
-TPES,TPES
-in_electricity generation,electricity plant
-out_electricity generation,electricity generation
-in_bld_comm,comm
-in_bld_resid,resid
-in_industry_agriculture,industry
-in_industry_chp,industry
-in_industry_ctl,industry
-in_industry_energy distribution,industry
-in_industry_feedstocks,industry_feedstocks
-in_industry_general,industry
-in_industry_gtl,industry
-in_industry_ownuse,industry
-in_industry_pipeline,industry
-in_trn_domestic air,domestic air
-in_trn_domestic ship,domestic ship
-in_trn_international air,international air
-in_trn_international ship,international ship
-in_trn_rail,trn_rail
-in_trn_road,trn_road
-in_trn_unspecified,trn_unspecified
-net_industry_energy transformation,industry
-net_industry_oil refining,industry
-in_heat,heat
+# File: enduse_sector_aggregation.csv,,
+# Title: Mapping from first intermediate sector to aggregated intermediate sector,,
+# Units: None,,
+# Column types: cc ,,
+# joh 2021-0-12 add missing sector items from the gcam_energy_balance.xlsx (original is upto in_heat),,
+sector,sector_agg,sector_agg2
+TPES,TPES,
+in_electricity generation,electricity plant,
+out_electricity generation,electricity generation,
+in_bld_comm,comm,building
+in_bld_resid,resid,building
+in_industry_agriculture,industry,
+in_industry_chp,industry,
+in_industry_ctl,industry,
+in_industry_energy distribution,industry,
+in_industry_feedstocks,industry_feedstocks,
+in_industry_general,industry,
+in_industry_gtl,industry,
+in_industry_ownuse,industry,
+in_industry_pipeline,industry,
+in_trn_domestic air,domestic air,transport
+in_trn_domestic ship,domestic ship,transport
+in_trn_international air,international air,transport
+in_trn_international ship,international ship,transport
+in_trn_rail,trn_rail,transport
+in_trn_road,trn_road,transport
+in_trn_unspecified,trn_unspecified,transport
+net_industry_energy transformation,industry,
+net_industry_oil refining,industry,
+in_heat,heat,
+net_electricity distribution,net_electricity distribution,
+net_electricity ownuse,net_electricity ownuse,
+net_gas pipeline,net_gas pipeline,
+net_oil refining,net_oil refining,
+out_resources,out_resources,
+out_electricity_heat,out_electricity_heat,
+in_gas processing,in_gas processing,
+out_chp_elec,out_chp_elec,
+out_ctl,out_ctl,
+out_gtl,out_gtl,

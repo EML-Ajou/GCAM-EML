@@ -1,27 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<!-- https://unfccc.int/process/transparency-and-reporting/greenhouse-gas-data/greenhouse-gas-data-unfccc/global-warming-potentials -->
-<!-- GWP for 100-year time horizon, ipcc95(SAR), ipcc07(AR4) -->
+<!-- https://unfccc.int/process-and-meetings/transparency-and-reporting/greenhouse-gas-data/frequently-asked-questions/global-warming-potentials-ipcc-fourth-assessment-report -->
+<!-- GWP for 100-year time horizon -->
+<!--air-pollutant: BC OC CO NH3 NMVOC NOx SO2_2-->
 <gwp>
   <ghg-class name="Carbon dioxide">
-    <ghg name="CO2" gwp20="1" gwp100="1"/>
+    <ghg name="CO2" gwp100="1"/>
   </ghg-class>
   <ghg-class name="Methane">
-    <ghg name="CH4" gwp20="56" gwp100="21"/>
+    <ghg name="CH4" gwp100="25"/>
   </ghg-class>
   <ghg-class name="Nitrous oxide">
-    <ghg name="N2O" gwp20="280" gwp100="310"/>
+    <ghg name="N2O" gwp100="298"/>
   </ghg-class>
   <ghg-class name="HFCs">
-    <ghg name="HFC23" gwp20="9100" gwp100="11700"/>
-    <ghg name="HFC32" gwp20="2100" gwp100="650"/>
-    <ghg name="HFC134a" gwp20="3400" gwp100="1300"/>
+    <ghg name="HFC23" gwp100="14800"/>
+    <ghg name="HFC32" gwp100="675"/>
+    <ghg name="HFC125" gwp100="3500"/>
+    <ghg name="HFC134a" gwp100="1430"/>
+    <ghg name="HFC143a" gwp100="4470"/>
+    <ghg name="HFC152a" gwp100="124"/>
+    <ghg name="HFC227ea" gwp100="3220"/>
+    <ghg name="HFC43" gwp100="1640"/>
+    <ghg name="HFC236fa" gwp100="9810"/>
+    <ghg name="HFC365mfc" gwp100="794"/>
+    <ghg name="HFC245fa" gwp100="1030"/>
   </ghg-class>
-  <ghg-class name="Sulphur hexafluoride">
-    <ghg name="SF6" gwp20="16300" gwp100="23900"/>
-  </ghg-class>
-  <ghg-class name="PFCs">
-    <ghg name="C2F6" gwp20="6200" gwp100="9200"/>
-    <ghg name="CF4" gwp20="4400" gwp100="6500"/>
+  <ghg-class name="Fluorinated compounds">
+    <ghg name="CF4" gwp100="7390"/>
+    <ghg name="C2F6" gwp100="12200"/>
+    <ghg name="SF6" gwp100="22800"/>
   </ghg-class>
 </gwp>

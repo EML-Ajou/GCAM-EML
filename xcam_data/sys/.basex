@@ -1,8 +1,8 @@
 # General Options
 DEBUG = false
-DBPATH = ..\workspace\canned\database
+DBPATH = D:\Proejct_VS\Main\exe\workspace\canned\database
 LOGPATH = .logs
-REPOPATH = 
+REPOPATH = C:\Program Files (x86)\BaseX\repo
 LANG = English
 LANGKEYS = false
 FAIRLOCK = false
@@ -28,7 +28,7 @@ LOGMSGMAXLEN = 1000
 LOGTRACE = true
 
 # HTTP Services
-WEBPATH = 
+WEBPATH = C:\Program Files (x86)\BaseX\webapp
 GZIP = false
 RESTPATH = 
 RESTXQPATH = 

@@ -15,7 +15,7 @@
       <sector name="electricity"/>
       <!--<sector name="elect_td_bld"/>-->
     </query>
-    <query name="*Elect Demand" id="elect_demand">
+    <query name="Electricity Demand" id="elect_demand">
       <sector name="elect_td_bld"/>
       <sector name="elect_td_ind"/>
       <sector name="elect_td_trn"/>
@@ -45,7 +45,7 @@
     <query name="Residential" id="resid">
       <sector name="resid*"/>
     </query>
-    <query name="Building">
+    <query name="Building" id="bld">
       <ref-query name="Commercial"/>
       <ref-query name="Residential"/>
     </query>
@@ -68,8 +68,7 @@
       <ref-query name="Transport"/>
     </query>
     <query name="End Use Sectors &amp; Electricity" id="enduse_elec_sectors">
-      <ref-query name="Commercial"/>
-      <ref-query name="Residential"/>
+      <ref-query name="Building"/>
       <ref-query name="Industry"/>
       <ref-query name="Transport"/>
       <ref-query name="Electricity"/>
@@ -91,9 +90,15 @@
     </query>
   </category>
   
-  <category name="Agriculture and Animal" input-unit="Mt">
-    <query name="ag production">
+  <category name="Agriculture" input-unit="Mt">
+    <query name="Crop">
       <ag-sector name="*"/>
+    </query>
+    <query name="Feed Sources">
+      <sector name="FodderHerb_Residue"/>
+      <sector name="Pasture_FodderGrass"/>
+      <sector name="FeedCrops"/>
+      <sector name="Scavenging_Other"/>
     </query>
     <query name="Animal">
       <sector name="Beef"/>
@@ -101,12 +106,6 @@
       <sector name="Pork"/>
       <sector name="Dairy"/>
       <sector name="Poultry"/>
-    </query>
-    <query name="Feed Sources">
-      <sector name="FodderHerb_Residue"/>
-      <sector name="Pasture_FodderGrass"/>
-      <sector name="FeedCrops"/>
-      <sector name="Scavenging_Other"/>
     </query>
     <query name="Food Consumption">
       <sector name="FoodDemand_Crops"/>
@@ -183,10 +182,13 @@
     <query name="Profit Rate">
       <xpath>profit-rate</xpath>
     </query>
-    <query name="LUC Emissions by Region">
+    <query name="LUC Emissions">
       <xpath>land-carbon-densities/land-use-change-emission</xpath>
     </query>
-    <query name="LUC Emissions">
+    <query name="LUC Emissions by aggr Crop">
+      <xpath>land-carbon-densities/land-use-change-emission</xpath>
+    </query>
+    <query name="LUC Emissions by Region">
       <xpath>land-carbon-densities/land-use-change-emission</xpath>
     </query>
     <query name="Above Ground Emissions">

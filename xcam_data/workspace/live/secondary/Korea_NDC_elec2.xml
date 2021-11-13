@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="nuclear"></subsector>
+        <subsector name="solar">
+          <interpolation-rule apply-to="share" from-year="2020" to-year="2030" adjust-price="false">
+            <interpolation-function name="linear" />
+            <from-value>0.05</from-value>
+            <to-value>0.3</to-value>
+            <adjustment>
+              <subsector name="coal" ratio="0.6" />
+              <technology name="nuclear" ratio="0.4" />
+            </adjustment>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share" from-year="2030" to-year="2050" adjust-price="false">
+            <interpolation-function name="linear" />
+            <from-value>0.3</from-value>
+            <to-value>0.6</to-value>
+          </interpolation-rule>
+        </subsector>
+        <subsector name="wind">
+          <interpolation-rule apply-to="share" from-year="2020" to-year="2030" adjust-price="false">
+            <interpolation-function name="linear" />
+            <from-value>0.01</from-value>
+            <to-value>0.1</to-value>
+            <adjustment>
+              <subsector name="coal" ratio="0.6" />
+              <technology name="nuclear" ratio="0.4" />
+            </adjustment>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share" from-year="2030" to-year="2050" adjust-price="false">
+            <interpolation-function name="linear" />
+            <from-value>0.1</from-value>
+            <to-value>0.2</to-value>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

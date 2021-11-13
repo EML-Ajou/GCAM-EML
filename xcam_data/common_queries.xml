@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<query-list>
+  <query name="Population" output-type="PhysicalOutput" aggr-type="Region"/>
+  <query name="GDP per capita MER" output-type="PhysicalOutput" aggr-type="Region"/>
+
+  <!--primary energy-->
+  <query id="primary_energy" output-type="InputEnergy" aggr-type="Fuel">
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+  <query id="primary_energy" output-type="InputEnergy" aggr-type="Fuel" tag="Three fuels">
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+  <query id="primary_energy" output-type="PhysicalOutput" aggr-type="Fuel" />
+  <query id="primary_energy" output-type="PhysicalOutput" aggr-type="Fuel" tag="Three fuels"/>
+
+  <!--enduse-sectors-->
+  <query id="enduse_elec_sectors" output-type="InputEnergy" aggr-type="Group">
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+  <query id="enduse_elec_sectors" output-type="InputEnergy" aggr-type="Fuel"> <!--todo-->
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+  <query id="enduse_elec_sectors" output-type="CO2" aggr-type="Group">
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+  <query id="enduse_elec_sectors" output-type="CO2" aggr-type="Fuel">
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+
+  <!--electricity-->
+  <query id="electricity" output-type="InputEnergy" aggr-type="Subsector">
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-parameter vintage="Vintage"/>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+  <query id="electricity" output-type="PhysicalOutput" aggr-type="Subsector">
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+  <query id="electricity" output-type="CO2" aggr-type="Subsector">
+    <chart>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-parameter vintage="Vintage"/>
+      <chart-property chart-type="StackingColumn"/>
+    </chart>
+    <chart>
+      <chart-property chart-type="StackingColumn100" />
+    </chart>
+  </query>
+
+  <!--building-->
+  <query name="Building" output-type="InputEnergy" aggr-type="Subsector" />
+  <query name="Building" output-type="CO2" aggr-type="Subsector" />
+  <query name="Building" output-type="InputEnergy" aggr-type="Group" />
+  <query name="Building" output-type="CO2" aggr-type="Group" />
+
+  <!--industry-->
+  <query name="Industry" output-type="InputEnergy" aggr-type="Subsector" />
+  <query name="Industry" output-type="CO2" aggr-type="Subsector" />
+
+  <!--trn-->
+  <query name="Transport" output-type="InputEnergy" aggr-type="Fuel" />
+  <query name="Transport" output-type="CO2" aggr-type="Fuel" />
+  <query name="Transport" output-type="InputEnergy" aggr-type="Group" />
+  <query name="Transport" output-type="CO2" aggr-type="Group" />
+</query-list>

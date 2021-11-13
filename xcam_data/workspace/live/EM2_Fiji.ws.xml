@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="">
+  <scenarios>
+    <scenario name="reference" global-price="global_price_SSP2_ref.xml" global-tech="global_tech_db_SSP2.xml">
+      <file>primary/input_Fiji_SSP2.xml</file>
+    </scenario>
+  </scenarios>
+</workspace>

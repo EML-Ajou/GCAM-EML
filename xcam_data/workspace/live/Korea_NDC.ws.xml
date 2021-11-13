@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="">
+  <scenarios>
+    <scenario name="reference">
+      <file>primary/input_South Korea.xml</file>
+    </scenario>
+    <scenario name="trn" based-on="reference">
+      <file>secondary/Korea_NDC_trn.xml</file>
+    </scenario>
+    <scenario name="elec" based-on="reference">
+      <file>secondary/Korea_NDC_elec2.xml</file>
+    </scenario>
+  </scenarios>
+  <chart-list />
+</workspace>

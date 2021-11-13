@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xcam-configuration>
   <strings>
-    <item name="energy-unit">GWh</item>
     <item name="numeric-format">G6</item>
+    <item name="energy-unit">TWh</item>
     <item name="emission-unit">MTCO2e</item>
-    <item name="price-unit">Default</item>
+    <item name="price-unit">2015$</item>
   </strings>
   <ints>
     <item name="start-year">2015</item>
@@ -13,20 +13,35 @@
   <bools />
   <fuels>
     <fuel name="coal" color="DarkGray" />
-    <fuel name="natural gas" color="SkyBlue" />
-    <fuel name="gas" color="SkyBlue" />
     <fuel name="oil" color="Orange" />
-    <fuel name="refined liquids" color="Orange" />
+    <fuel name="gas" color="SkyBlue" />
     <fuel name="biomass" color="LimeGreen" />
-    <fuel name="biomassOil" color="LimeGreen" />
-    <fuel name="ethanol" color="LimeGreen" />
     <fuel name="traditional biomass" color="Brown" />
     <fuel name="electricity" color="BurlyWood" />
     <fuel name="nuclear" color="Magenta" />
     <fuel name="solar" color="Gold" />
-    <fuel name="wind" color="CadetBlue" />
+    <fuel name="wind" color="Violet" />
     <fuel name="hydro" color="DodgerBlue" />
     <fuel name="geothermal" color="Peru" />
-    <fuel name="H2" color="Peru" />
+    <fuel name="H2" color="DarkCyan" />
   </fuels>
+  <enduse-sectors>
+    <sector name="Residential" color="GreenYellow" />
+    <sector name="Commercial" color="DarkKhaki" />
+    <sector name="Building" color="DarkKhaki" />
+    <sector name="Industry" color="LightSteelBlue" />
+    <sector name="Transport" color="RosyBrown" />
+    <sector name="Electricity" color="BurlyWood" />
+  </enduse-sectors>
+  <trn-techs>
+    <tech name="Liquids" color="Orange" />
+    <tech name="Hybrid Liquids" color="LightPink" />
+    <tech name="NG" color="SkyBlue" />
+    <tech name="BEV" color="BurlyWood" />
+    <tech name="FCEV" color="RosyBrown" />
+    <tech name="Electric" color="BurlyWood" />
+    <tech name="Coal" color="DarkGray" />
+    <tech name="Tech-Adv-Electric" color="DarkOrchid" />
+    <tech name="Tech-Adv-Liquid" color="Orange" />
+  </trn-techs>
 </xcam-configuration>

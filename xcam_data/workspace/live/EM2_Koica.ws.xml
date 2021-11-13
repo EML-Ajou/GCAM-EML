@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace name="">
+  <scenarios>
+    <scenario name="SSP2" global-price="global_price_SSP2_ref.xml" global-tech="global_tech_db_SSP2.xml">
+      <file>primary/input_Cambodia_SSP2.xml</file>
+      <file>primary/input_Colombia_SSP2.xml</file>
+      <file>primary/input_Ecuador_SSP2.xml</file>
+      <file>primary/input_Fiji_SSP2.xml</file>
+      <file>primary/input_Jordan_SSP2.xml</file>
+      <file>primary/input_Kenya_SSP2.xml</file>
+      <file>primary/input_Kyrgyzstan_SSP2.xml</file>
+      <file>primary/input_Tanzania United Republic of_SSP2.xml</file>
+    </scenario>
+  </scenarios>
+  <chart-list />
+</workspace>
