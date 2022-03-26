@@ -1,29 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xcam-configuration>
   <strings>
+    <item name="energy-unit">EJ</item>
     <item name="numeric-format">G6</item>
-    <item name="energy-unit">TWh</item>
+    <item name="co2-unit">Default</item>
+    <item name="price-unit">Default</item>
     <item name="emission-unit">MTCO2e</item>
-    <item name="price-unit">2015$</item>
   </strings>
   <ints>
     <item name="start-year">2015</item>
-    <item name="end-year">2060</item>
+    <item name="end-year">2050</item>
+    <item name="color-transparency">50</item>
   </ints>
   <bools />
   <fuels>
     <fuel name="coal" color="DarkGray" />
-    <fuel name="oil" color="Orange" />
     <fuel name="gas" color="SkyBlue" />
+    <fuel name="oil" color="Orange" />
     <fuel name="biomass" color="LimeGreen" />
-    <fuel name="traditional biomass" color="Brown" />
+    <fuel name="traditional biomass" color="IndianRed" />
     <fuel name="electricity" color="BurlyWood" />
     <fuel name="nuclear" color="Magenta" />
     <fuel name="solar" color="Gold" />
-    <fuel name="wind" color="Violet" />
+    <fuel name="wind" color="CadetBlue" />
     <fuel name="hydro" color="DodgerBlue" />
     <fuel name="geothermal" color="Peru" />
-    <fuel name="H2" color="DarkCyan" />
+    <fuel name="H2" color="RoyalBlue" />
   </fuels>
   <enduse-sectors>
     <sector name="Residential" color="GreenYellow" />

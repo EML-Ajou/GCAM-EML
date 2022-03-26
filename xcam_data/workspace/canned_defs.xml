@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs ws-path="canned">
+  <category name="Baseline">
+    <description>Reference scenario</description>
+
+  </category>
+
+  <category name="Transportation">
+    <!--<workspace name="BEV FCEV" file="Korea_trn.ws.xml"/>-->
+  </category>
+</defs>

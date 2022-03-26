@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs ws-path="live">
+  <category name="Climate Technology">
+    <description>Evaluate Climate Technology</description>
+    <workspace file="EM2_Colombia.ws.xml" name="Colombia" map-name="Colombia" wikipedia="Colombia"/>
+    <workspace file="EM2_Kenya.ws.xml" name="Kenya" map-name="Kenya" wikipedia="Kenya"/>
+  </category>
+  <category name="NDC Evaluation" >
+    <description>Evaluate NDC Target</description>
+    <workspace file="Korea_NDC.ws.xml" name="Korea" map-name="Korea, Republic of" wikipedia="South_Korea"/>
+  </category>
+</defs>
