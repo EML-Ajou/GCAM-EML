@@ -1,8 +1,8 @@
 # Paths
-INPUTPATH = D:\Proejct_VS\Main\exe\sys\
-DATAPATH = D:\Proejct_VS\Main\exe\sys\
-WORKPATH = D:/Proejct_VS/Main/exe/sys/
-PROJECTPATH = D:/Proejct_VS/Main/exe/sys/
+INPUTPATH = D:\Proejct_GitHub\jaeickoh\EML.Xcam\exe\sys\
+DATAPATH = D:\Proejct_GitHub\jaeickoh\EML.Xcam\exe\sys\
+WORKPATH = D:/Proejct_GitHub/jaeickoh/EML.Xcam/exe/sys/
+PROJECTPATH = D:/Proejct_GitHub/jaeickoh/EML.Xcam/exe/sys/
 
 # Layout
 FONT = SansSerif
@@ -15,18 +15,18 @@ COLORGREEN = 11
 COLORBLUE = 6
 
 # Windows
-UPDATEVERSION = 9.5
-VIEWS = H text V H V editor info - folder map plot - H table tree explore - - - 
+UPDATEVERSION = 9.6.2
+VIEWS = V H editor folder map plot - H text info table tree explore - - 
 GUISIZE0 = 1004
 GUISIZE1 = 748
 GUILOC0 = 10
 GUILOC1 = 10
-MAXSTATE = true
+MAXSTATE = false
 SHOWBUTTONS = true
 SHOWINPUT = true
 SHOWSTATUS = true
 SHOWINFO = true
-SHOWMAP = false
+SHOWMAP = true
 SHOWTABLE = false
 SHOWTEXT = true
 SHOWFOLDER = false
@@ -59,7 +59,7 @@ PARSEPROJ = true
 AUTO = true
 FILES = *.xml, *.xq*
 SHOWHIDDEN = false
-SEARCHMODE = 1
+SEARCHMODE = 0
 FILTERRT = false
 EXECRT = false
 DBNAME = 
@@ -79,38 +79,13 @@ MAXTEXT = 8388608
 MAXRESULTS = 500000
 
 # Search
-SEARCHED = 4
-SEARCHED1 = kor
-SEARCHED2 = pass
-SEARCHED3 = coal (conv pul)_kor
-SEARCHED4 = GCAM_SSP2_best_netzero_nucfixed
+SEARCHED = 0
 REPLACED = 0
 
 # History
-COMMANDS = 1
-COMMANDS1 = //*[@name='elec_geothermal_kor]
-SEARCH = 2
-SEARCH1 = //*[@type='technology' @name='coal (conv pul)_kor']
-SEARCH2 = //*[@type='technology' @name='']
-XQUERY = 18
-XQUERY1 = //*[@name='elec_geothermal_kor']
-XQUERY2 = //scenario/@name
-XQUERY3 = //region[@name='South Korea']//*[@name='geothermal_kor']//physical-output
-XQUERY4 = //region[@name='South Korea']//*[@name='geothermal_kor']
-XQUERY5 = //scenariopass-through-sector[contains(@name,'elec_geothermal_kor')]/ancestor::scenario/@name
-XQUERY6 = //scenariopass-through-sector[@name='elec_geothermal_kor']/ancestor::scenario/@name
-XQUERY7 = //pass-through-sector[@name='elec_geothermal_kor']/ancestor::scenario/@name
-XQUERY8 = //pass-through-sector[@name='elec_geothermal_kor']/ancestor::scenario
-XQUERY9 = //scenario//pass-through-sector[@name='elec_geothermal_kor']
-XQUERY10 = //scenario//p[@name='elec_geothermal_kor']
-XQUERY11 = //scenario*[@name='elec_geothermal_kor']
-XQUERY12 = //*[@name='elec_coal (conv pul)_kor']
-XQUERY13 = //*[@name='ele_coal (conv pul)_kor']
-XQUERY14 = //*[@name='coal (conv pul)_kor']
-XQUERY15 = //*[@name='geothermal_kor']
-XQUERY16 = //scenario[@name='GCAM_SSP2_best_netzero_nucfixed']//region[@name='South Korea']//pass-through-sector[@name='elec_coal (conv pul)']
-XQUERY17 = //scenario[@name='GCAM_SSP2_best_netzero_nucfixed']//region[@name='South Korea']//pass-through-sector/@name
-XQUERY18 = //scenario[@name='GCAM_SSP2_best_netzero_nucfixed']//region[@name='South Korea']//pass-through-sector
+COMMANDS = 0
+SEARCH = 0
+XQUERY = 0
 
 # Files
 EDITOR = 0

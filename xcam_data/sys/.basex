@@ -1,6 +1,6 @@
 # General Options
 DEBUG = false
-DBPATH = D:\Proejct_VS\Main\exe\workspace\canned\database
+DBPATH = D:\Proejct_GitHub\jaeickoh\EML.Xcam\exe\workspace\canned\database
 LOGPATH = .logs
 REPOPATH = C:\Program Files (x86)\BaseX\repo
 LANG = English
@@ -39,117 +39,6 @@ STOPPORT = 8985
 AUTHMETHOD = Basic
 
 # Local Options
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
